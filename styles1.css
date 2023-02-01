@@ -221,8 +221,8 @@ header {
 .keeping-cooking-simple-article-blue-link {
   width: 100%;
   margin: 0 auto;
-  margin-left: .5rem;
-  margin-right: 10rem;
+ 
+ 
   margin-top: 4.4rem;
 
 }
@@ -269,7 +269,6 @@ header {
   font-size: 3.6rem;
   width: 90%;
   text-align: center;
-  padding-left:2.5rem;
   
   
 }
@@ -552,7 +551,7 @@ header {
     
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 393px){
 
 .sub-title{
   font-size: 1.3rem;
@@ -565,6 +564,24 @@ nav a {
     width:100%;
   }
 }
+
+@media screen and (max-width: 324px){
+
+  .sub-title{
+    font-size: 1.0rem;
+  }
+
+    .top-heading{
+      font-size: 2.0rem;
+    }
+
+    .blue-link{
+
+
+    }
+  }
+
+
 
 
 
