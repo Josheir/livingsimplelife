@@ -21,6 +21,7 @@
 
 html {
   font-size: 6;
+ 
   
 }
 
@@ -117,6 +118,8 @@ header {
   
   
   
+  
+  
 }
 
 .title {
@@ -125,6 +128,8 @@ header {
   padding: 0px 3rem 0px 3rem;
   margin-top:3rem;
   margin-bottom: 3rem;
+  
+  
   
   
 }
@@ -269,7 +274,7 @@ header {
   font-size: 3.6rem;
   width: 90%;
   text-align: center;
-  padding-left:2.5rem;
+ 
   
   
 }
@@ -426,6 +431,12 @@ header {
     margin-left:0rem;
   }
 
+  .aside-text{
+
+    font-size:2rem;
+  
+  }
+
 }
 
 
@@ -532,6 +543,7 @@ header {
       margin-bottom: 5rem;
       
       
+      
     }
     .top-heading{
       font-size: 3rem;
@@ -581,10 +593,17 @@ header {
       color: #020202;
       font-size: 1.7rem;
     }
+
+    .blue-link{
+      font-size: 2rem;
+    }
   }
   
 
+  @media screen and (max-width: 541px){
 
+    
+  }
 
 
 
@@ -598,41 +617,134 @@ header {
   .sub-title{
     letter-spacing: .3rem;
   }
-  
+  .site-title{
+    font-size: 3rem;
+  }
 }
     
-}
+@media screen and (max-width: 396px){
 
-
-
-
-
-@media screen and (max-width: 375px){
-
-.sub-title{
-  font-size: 1.3rem;
-}
-nav a { 
-     font-size: 1.15rem;
+  body{
+ 
   }
+}
+.top-heading{
+  font-size: 3rem;
+}
 
+
+
+@media screen and (max-width: 461px){
+
+  .top-heading{
+  
+    font-size:  2.0rem;
+  }
+  
   .main-part-of-page-title-image {
-    width:100%;
+  
+  }
+  .article-title{
+    font-size: 2.0rem;
+  }
+  
+    }
+
+
+
+@media screen and (max-width: 378px){
+  
+  .sub-title{
+    font-size: 1.3rem;
+  }
+  
+  
+    .main-part-of-page-title-image {
+      width:100%;
+      
+    }
+
+    
+
+    nav a{
+      font-size: 1.0rem;
+      
+   
+    }
+    .underline{
+      width: 4.4rem;
+    }
+    .last-link{
+      padding-right: -3.2rem;
+    }
+
+    .aside-heading{
+      font-size: 3rem;
+    }
+
+    
+
+    
+  }
+
+
+  @media screen and (max-width: 305px){
+    
+
+
+
+  }
+ 
+
+  
+ 
+  
+
+@media screen and (max-width: 286px){
+
+  body{
+    
+    }
+
+  .sub-title{
+    font-size: 1rem;
+    
+  }
+  
+  ul li{
+  font-size: .2rem;
+    margin-left: 1.01rem;
+    
+  }
+  .top-heading{
+    font-size:2.62rem;
+  }
+  
+  .aside-text {
+  
+    font-size:1.6rem;
+    }
+  
+    .article-title{
+      font-size:2.8rem;
+      margin-bottom: 5rem;
+    }
+
+    .site-title{
+
+
+      font-size: 3rem;
+      
+      
+    }
+
+    .title {
+      
+      
+      
+      
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

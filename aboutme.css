@@ -15,11 +15,13 @@
     font-family: sans-serif;
     margin-left: auto;
     margin-right: auto;
+  
   }
   
   html {
     font-size: 6;
     max-width: 1000px;
+   
   }
   
   body {
@@ -150,12 +152,13 @@
     flex-direction: row;
     width: 100%;
     
+    
   }
   
   .main-part-of-page {
     width: 65%;
     
-    margin-left:0rem;
+    
     
   }
   
@@ -168,8 +171,7 @@
     background-size: cover;
     border-style: solid;
     border-width: 1px;
-    margin-top: 6rem;
-    margin-left: 18rem;
+   margin:0 auto;
      
   }
   
@@ -443,8 +445,13 @@
     nav ul{
       margin-left:0rem;
     }
+
+    .aside-text{
+
+    font-size:2rem;
   
   }
+}
   
 
 
@@ -471,6 +478,11 @@
   
   }
 
+
+  @media screen and (max-width: 745px){
+
+    
+  }
 
 
 
@@ -607,24 +619,36 @@
     
     
     @media screen and (max-width: 541px){
-    
-    .article-title{
-      font-size: 4.5rem;
-    }
   
-    .sub-title{
-      letter-spacing: .3rem;
-    }
+      .article-title{
+        font-size: 4.5rem;
+      }
     
-  }
+      .sub-title{
+        letter-spacing: .3rem;
+      }
+      .site-title{
+        font-size: 3rem;
+      }
+    }
+        
+    @media screen and (max-width: 396px){
+    
+      body{
       
+      }
+    }
+    .top-heading{
+      font-size: 3rem;
+    }
+    
   
 
 
-  /*
+  
 
 
-  @media screen and (max-width: 469px){
+  @media screen and (max-width: 461px){
 
 .top-heading{
 
@@ -639,7 +663,7 @@
 }
 
   }
-*/
+
 
   
 
@@ -647,7 +671,7 @@
 
 
     
-  @media screen and (max-width: 375px){
+  @media screen and (max-width: 378px){
   
   .sub-title{
     font-size: 1.3rem;
@@ -662,29 +686,63 @@
     
 
     nav a{
-      font-size: 1.15rem;
+      font-size: 1.0rem;
       
    
     }
     .underline{
       width: 4.4rem;
     }
+    .last-link{
+      padding-right: -3.2rem;
+    }
+
+   
+
     
 
+    
   }
   
-  /*
-  @media screen and (max-width: 315px){
+
+  
+
+@media screen and (max-width: 286px){
 
 
+
+ul li{
+font-size: .2rem;
+  margin-left: 1.01rem;
+  
+}
 .top-heading{
-
-  font-size: 1.7rem;
+  font-size:1.6rem;
 }
 
+.aside-text {
+
+  font-size:1.6rem;
   }
+
+  .article-title{
+    font-size:1.6rem;
+  }
+
+  .site-title{
+    font-size: 3rem;
+    
+  }
+
+  .sub-title{
+    font-size: 1rem;
+    
+  }
+
   
-  /*
+
+}
+  
   
   
   
