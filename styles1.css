@@ -700,6 +700,11 @@ header {
  
   
 
+
+
+
+
+
 @media screen and (max-width: 286px){
 
   body{
@@ -717,7 +722,7 @@ header {
     
   }
   .top-heading{
-    font-size:2.62rem;
+    font-size:1.6rem;
   }
   
   .aside-text {
@@ -738,12 +743,7 @@ header {
       
     }
 
-    .title {
-      
-      
-      
-      
-  }
+    
 }
 
 

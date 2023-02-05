@@ -620,9 +620,7 @@
     
     @media screen and (max-width: 541px){
   
-      .article-title{
-        font-size: 4.5rem;
-      }
+      
     
       .sub-title{
         letter-spacing: .3rem;
@@ -631,6 +629,10 @@
         font-size: 3rem;
       }
     }
+
+
+
+
         
     @media screen and (max-width: 396px){
     
@@ -705,8 +707,29 @@
   }
   
 
+
+  @media screen and (max-width: 314px){
+
+body{
+  
+}
+
+  .top-heading{
+
+    font-size: 1.5rem;
+  }
+
+
+  }
+
   
 
+
+
+
+
+
+  
 @media screen and (max-width: 286px){
 
 
