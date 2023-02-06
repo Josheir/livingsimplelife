@@ -164,7 +164,7 @@
   
   .main-part-of-page-title-image {
     width: 68%;
-    height: 53rem;
+    height: 48rem;
     background-image: url("./images/about-me.jpg");
     background-position:center;
     background-repeat: no-repeat;
@@ -172,6 +172,8 @@
     border-style: solid;
     border-width: 1px;
    margin:0 auto;
+   margin-bottom: 9rem;
+
      
   }
   
@@ -190,25 +192,18 @@
   
   
   
-  .top-heading {
-    font-size: 3rem;
-    width: 100%;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    text-align: center;
-    color: blue;
-  }
+  
   
   
   .text {
-    font-size: 3.6rem;
+    font-size: 2rem;
     margin: 0 auto;
     margin-left: 10rem;
     margin-right: 10rem;
   }
   
   .text-size {
-    font-size: 4.4rem;
+    font-size: 2.0rem;
   }
 
   .text-top-margin{
@@ -296,7 +291,7 @@
   
   
   .aside-heading {
-    font-size: 3.3rem;
+    font-size: 1.8rem;
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -313,7 +308,7 @@
     margin: 0rem;
     text-align: center;
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     padding-top: 1rem;
     padding-bottom: 4rem;
   }
@@ -335,7 +330,15 @@
     font-size: 4.4rem;
    
   }
-  
+
+  .top-heading {
+    color: rgb(76, 0, 255);
+    font-size: 3rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
   /*/////////////////////////////
   /////////////////////////////*/
 
@@ -639,12 +642,12 @@
       body{
       
       }
-    }
+    
     .top-heading{
       font-size: 3rem;
     }
     
-  
+    }
 
 
   
@@ -717,6 +720,7 @@ body{
   .top-heading{
 
     font-size: 1.5rem;
+
   }
 
 

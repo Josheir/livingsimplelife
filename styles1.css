@@ -20,7 +20,7 @@
 }
 
 html {
-  font-size: 6;
+  font-size: 6px;
  
   
 }
@@ -190,7 +190,7 @@ header {
   margin-bottom: 9rem;
   color: blue;
  
-  font-size: 3.6rem;
+  font-size: 2.0rem;
   margin-top: 1rem;
   text-align: center;
 }
@@ -203,7 +203,7 @@ header {
 
 
 .top-heading {
-  font-size: 7.4rem;
+  font-size: 3rem;
   width: 100%;
   margin-bottom: 2rem;
   text-align: center;
@@ -211,7 +211,7 @@ header {
 
 
 .text {
-  font-size: 3.6rem;
+  font-size: 2rem;
   margin: 0 auto;
   margin-left: 10rem;
   margin-right: 10rem;
@@ -219,9 +219,12 @@ header {
 }
 
 .text-size {
-  font-size: 4.4rem;
+  font-size: 2.0rem;
 }
 
+.test{
+  font-size: 3rem;
+}
 
 .keeping-cooking-simple-article-blue-link {
   width: 100%;
@@ -245,33 +248,35 @@ header {
 .large-image {
   border: 1px solid;
   width:70%;
+  
  
   
 }
 
 .date {
   margin-top: 1rem;
-  font-size: 3.6rem;
+  font-size: 1.5rem;
   margin-left: 0rem;
   color: blue;
 }
 
 
 .article-title {
-  font-size: 6.2rem;
+  font-size: 2.0rem;
   margin-top: 8rem;
   text-align: center;
   margin-bottom: 1rem;
 }
 
 .keeping-cooking-simple-article-first-text {
+  
 }
 
 .blue-link {
   color: blue;
   margin-bottom: 7rem;
   margin-top: 4.4rem;
-  font-size: 3.6rem;
+  font-size: 1.7rem;
   width: 90%;
   text-align: center;
  
@@ -285,7 +290,7 @@ header {
 }
 
 .images-on-right {
-  width: 35%;
+  width: 62%;
 
 }
 
@@ -295,16 +300,17 @@ header {
   text-align: center;
   padding: 3rem;
   margin: 0 auto;
-  margin-top: 0rem;
+  margin-top: 6rem;
 }
 
 
 .aside-heading {
-  font-size: 3.3rem;
+  font-size: 1.8rem;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
+
 
 
 /*on upper right*/
@@ -317,7 +323,7 @@ header {
   margin: 0rem;
   text-align: center;
   font-weight: bold;
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   padding-top: 1rem;
   padding-bottom: 4rem;
 }
@@ -339,6 +345,13 @@ header {
   font-size: 4.4rem;
  
 }
+
+.article-title{
+  font-size:2.8rem;
+}
+
+/*
+
 @media screen and (max-width: 1083px){
 
   .main-part-of-page-title-image{
@@ -462,7 +475,7 @@ header {
     letter-spacing:.3rem;
   }
 
-
+}
   
 
 
@@ -627,9 +640,10 @@ header {
   body{
  
   }
-}
+
 .top-heading{
   font-size: 3rem;
+}
 }
 
 
@@ -702,7 +716,7 @@ header {
 
 
 
-
+  
 
 
 @media screen and (max-width: 286px){
@@ -746,6 +760,8 @@ header {
     
 }
 
+
+.
 
 
 
