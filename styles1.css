@@ -42,6 +42,7 @@ nav ul {
   display: flex;
   padding-top: 2rem;
   margin-left:20rem;
+  font-size: 1.6rem;
   
 }
 
@@ -135,15 +136,18 @@ header {
 }
 
 .site-title {
-  font-size: 4.4rem;
+  font-size: 3rem;
   padding-top: 2rem;
+  padding-left:4rem;
 }
 
 .sub-title {
-  font-size: 2.6rem;
+  font-size: 1rem;
   padding-bottom: 2.6rem;
   letter-spacing:.1rem;
   color:blue;
+  letter-spacing: .3rem;
+  padding-left:4rem;
 }
 
 
@@ -190,7 +194,7 @@ header {
   margin-bottom: 9rem;
   color: blue;
  
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   margin-top: 1rem;
   text-align: center;
 }
@@ -349,6 +353,7 @@ header {
 .article-title{
   font-size:2.8rem;
 }
+
 
 /*
 
@@ -513,11 +518,12 @@ header {
 
 
 
+*/
 
-
-  @media screen and (max-width: 621px){
+  @media screen and (max-width: 694px){
 
     body{
+      background-color: yellow;
      
     }
     a:hover {
@@ -596,7 +602,10 @@ header {
 
     }
     nav ul{
+      margin-left: 0rem;
       font-size: medium;
+      text-align: center;
+      
     }
 
 
@@ -613,155 +622,62 @@ header {
   }
   
 
-  @media screen and (max-width: 541px){
+
+
+
+@media screen and (max-width: 399px){
+
+  body{
+  background-color: red;
+  }
+  .text {
+    font-size: 1.6rem;
+  }
+    .top-heading{
+    font-size: 2.2rem;
+  }
+  .blue-link{
+    font-size:1.5rem;
+  }
+
+  .date{
+
+    font-size: 1.2rem;
+  }
+
+  nav a{
+   
+   font-size: .9rem;
 
     
   }
 
-
-
-
-  @media screen and (max-width: 541px){
-  
-  .article-title{
-    font-size: 4.5rem;
-  }
-
-  .sub-title{
-    letter-spacing: .3rem;
-  }
   .site-title{
     font-size: 3rem;
   }
-}
-    
-@media screen and (max-width: 396px){
 
-  body{
- 
+  .sub-title{
+    font-size: 1.0rem;
   }
 
-.top-heading{
-  font-size: 3rem;
-}
-}
-
-
-
-@media screen and (max-width: 461px){
-
-  .top-heading{
-  
-    font-size:  2.0rem;
+  .aside-text{
+    font-size: 1.1rem;
   }
-  
+
   .main-part-of-page-title-image {
-  
-  }
-  .article-title{
-    font-size: 2.0rem;
-  }
-  
-    }
+    height: 140px;
+    width:90%;
 
-
-
-@media screen and (max-width: 378px){
-  
-  .sub-title{
-    font-size: 1.3rem;
-  }
-  
-  
-    .main-part-of-page-title-image {
-      width:100%;
-      
-    }
-
-    
-
-    nav a{
-      font-size: 1.0rem;
-      
-   
-    }
-    .underline{
-      width: 4.4rem;
-    }
-    .last-link{
-      padding-right: -3.2rem;
-    }
-
-    .aside-heading{
-      font-size: 3rem;
-    }
-
-    
-
-    
-  }
-
-
-  @media screen and (max-width: 305px){
-    
-
-
-
-  }
- 
-
-  
- 
-  
-
-
-
-  
-
-
-@media screen and (max-width: 286px){
-
-  body{
-    
-    }
-
-  .sub-title{
-    font-size: 1rem;
-    
-  }
-  
-  ul li{
-  font-size: .2rem;
-    margin-left: 1.01rem;
-    
-  }
-  .top-heading{
-    font-size:1.6rem;
-  }
-  
-  .aside-text {
-  
-    font-size:1.6rem;
-    }
-  
-    .article-title{
-      font-size:2.8rem;
-      margin-bottom: 5rem;
-    }
-
-    .site-title{
-
-
-      font-size: 3rem;
-      
-      
-    }
-
-    
 }
 
+.aside-heading{
+font-size: 1.1rem;
+}
 
-.
+.article-title{
+  font-size: 1.7rem;
+}
+}
 
 
 
