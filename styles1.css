@@ -266,10 +266,10 @@ header {
 
 
 .article-title {
-  font-size: 2.0rem;
+  font-size: 2.2rem;
   margin-top: 8rem;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 
 .keeping-cooking-simple-article-first-text {
@@ -294,7 +294,7 @@ header {
 }
 
 .images-on-right {
-  width: 62%;
+  width: 35%;
 
 }
 
@@ -350,9 +350,7 @@ header {
  
 }
 
-.article-title{
-  font-size:2.8rem;
-}
+
 
 
 /*
@@ -538,21 +536,28 @@ header {
     .site-title{
 
       font-size: 4rem;
+      padding-top: 2rem;
       
     }
     .sub-title{
       font-size: 2.2rem;
       font-weight: 600;
       
-    }
-
-
-
-
-    .title{
-      text-align: center;
       
     }
+
+
+
+
+    .title {
+    
+      display: flex;
+    flex-direction: column;
+    padding: 0px 3rem 0px 3rem;
+    margin-top:3rem;
+    margin-bottom: 3rem;
+    }
+
     .banner{
       display: flex;
       flex-direction: column;
@@ -560,6 +565,7 @@ header {
       align-items: center;
       padding-bottom: 5rem;
       margin-bottom: 5rem;
+      
       
       
       
@@ -619,6 +625,12 @@ header {
     .blue-link{
       font-size: 2rem;
     }
+
+    .article-title{
+    font-size: 2.8rem;
+    }
+
+    
   }
   
 

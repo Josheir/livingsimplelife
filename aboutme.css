@@ -19,7 +19,7 @@
   }
   
   html {
-    font-size: 6;
+    font-size: 6px;
     max-width: 1000px;
    
   }
@@ -43,13 +43,16 @@
     list-style: none;
     display: flex;
     padding-top: 2rem;
-    margin-left:20rem;
+    
+    text-align: center;
   }
   
   nav a {
+    
     text-decoration: none;
-    color: #707070;
+    
     font-weight: 200;
+    
   }
   /*//////////////*/
   
@@ -165,7 +168,7 @@
   
   .main-part-of-page-title-image {
     width: 68%;
-    height: 48rem;
+    height: 38rem;
     background-image: url("./images/about-me.jpg");
     background-position:center;
     background-repeat: no-repeat;
@@ -253,11 +256,11 @@
   
   
   .article-title {
-    font-size: 3rem;
-    margin-top: 8rem;
+    font-size: 2.2rem;
+    margin-top: 6.8rem;
     text-align: center;
-    margin-bottom: 8rem;
-    color: blue;
+    margin-bottom: 5rem;
+    
   }
   
   .keeping-cooking-simple-article-first-text {
@@ -528,8 +531,12 @@
 */
     
   
-    @media screen and (max-width: 696px){
+    @media screen and (max-width: 694px){
   
+
+      body{
+        background-color: yellow;
+      }
       
       a:hover {
         text-decoration: none;
@@ -615,7 +622,71 @@
       .underline{
         width:7.3rem;
       }
+
+      .article-title{
+        font-size: 2.8rem;
+      }
     }
+
+    @media screen and (max-width: 399px){
+
+      body{
+      background-color: red;
+      }
+
+      /**/
+
+      .text {
+        font-size: 1.6rem;
+      }
+        .top-heading{
+        font-size: 2.2rem;
+      }
+      .blue-link{
+        font-size:1.5rem;
+      }
+    
+      .date{
+    
+        font-size: 1.2rem;
+      }
+    
+      nav a{
+       
+       font-size: .9rem;
+    
+        
+      }
+    
+      .site-title{
+        font-size: 3rem;
+      }
+    
+      .sub-title{
+        font-size: 1.0rem;
+      }
+    
+      .aside-text{
+        font-size: 1.1rem;
+      }
+    
+      .main-part-of-page-title-image {
+        height: 140px;
+        width:90%;
+    
+    }
+    
+    .aside-heading{
+    font-size: 1.1rem;
+    }
+    
+    .article-title{
+      font-size: 1.7rem;
+    }
+      /**/
+
+    }
+
     
     
   
