@@ -716,15 +716,31 @@ font-size: 1.1rem;
     display: none;
   }
   .main-part-of-page-first-date {
-  margin-bottom:6rem;
+  margin-bottom:0rem;
   }
   .banner{
 
-    display: none;
+    
   }
 
   .top-heading{
-  margin-top: 6rem;
+  margin-top: 1rem;
+
+}
+
+.sub-title{
+  font-size: 2rem;
+  font-weight: 500;
+  position: absolute;
+left:-23px;
+top:64px;
+}
+.site-title{
+  position: absolute;
+left:30px;
+top:20px;
+  
+  font-size: 3.6rem;
 }
 }
 

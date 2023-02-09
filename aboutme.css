@@ -45,7 +45,7 @@
     padding-top: 2rem;
     
     text-align: center;
-    font-size: 1.6rem;;
+    
   }
   
   nav a {
@@ -132,13 +132,14 @@
   .site-title {
     font-size: 3rem;
     padding-top: 2rem;
+    padding-left:4rem;
   }
   
   .sub-title {
     font-size: 1rem;
     padding-bottom: 2.6rem;
     letter-spacing:.1rem;
-    color:blue;
+    
     letter-spacing: .3rem;
   }
 
@@ -684,6 +685,7 @@
     .article-title{
       font-size: 1.7rem;
     }
+    
       /**/
 
     }
@@ -716,8 +718,24 @@
 
   .banner{
 
-    display: none;
+    
   }
+
+  .sub-title{
+    font-size: 2rem;
+    font-weight: 500;
+    position: absolute;
+  left:-13px;
+  top:64px;
+  }
+  .site-title{
+    position: absolute;
+  left:46px;
+  top:20px;
+    
+    font-size: 3.6rem;
+  }
+  
 }
 
 
