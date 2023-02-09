@@ -27,6 +27,7 @@
   body {
     width: 100%;
     
+    
   }
   
   
@@ -188,9 +189,10 @@
   
   .text {
     font-size: 2rem;
-    margin: 0 auto;
-    margin-left: 10rem;
-    margin-right: 10rem;
+   margin-left: 10rem;
+   align-items: center;
+    
+    
   }
   
   .text-size {
@@ -261,15 +263,18 @@
   
   .images-on-right {
     width: 35%;
+    
   }
   
   .image-on-right-top {
+    
     width: 60%;
     border: 1px solid #000000;
     text-align: center;
     padding: 3rem;
     margin: 0 auto;
     margin-top: 6rem;
+    
   }
   
   
@@ -523,10 +528,7 @@
         color: blue;
       }
   
-      .aside-text{
-  
-        font-size: 2rem;
-      }
+      
       .site-title{
   
         font-size: 4rem;
@@ -568,13 +570,15 @@
         
         
       }
+
+      /*
       .images-on-right{
     
         order: 1;
         width:70%;
         margin-bottom: 5rem;
         
-      }
+      }*/
       
       
       .main-part-of-page{
@@ -598,7 +602,11 @@
       }
       
       .underline{
-        width:7.3rem;
+        width:3.7rem;
+      }
+
+      .aside-heading{
+        hidden
       }
 
       
@@ -607,7 +615,7 @@
     @media screen and (max-width: 399px){
 
       body{
-      background-color: red;
+      
       }
 
       /**/
@@ -618,14 +626,7 @@
         .top-heading{
         font-size: 2.2rem;
       }
-      .blue-link{
-        font-size:1.5rem;
-      }
-    
-      .date{
-    
-        font-size: 1.2rem;
-      }
+     
     
       nav a{
        
@@ -642,15 +643,7 @@
         font-size: 1.0rem;
       }
     
-      .aside-text{
-        font-size: 1.1rem;
-      }
-    
       
-    
-    .aside-heading{
-    font-size: 1.1rem;
-    }
     
     
       /**/
