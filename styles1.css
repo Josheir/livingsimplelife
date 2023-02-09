@@ -692,4 +692,39 @@ font-size: 1.1rem;
 }
 
 
+@media print {
+
+  
+  .images-on-right{
+    display: none;
+  }
+
+  .main-part-of-page-title-image{
+    display: none;
+  }
+
+  .large-image{
+    
+    display: none;
+  }
+
+  .date{
+    display: none;
+    margin-bottom: 0rem;
+  }
+  .blue-link{
+    display: none;
+  }
+  .main-part-of-page-first-date {
+  margin-bottom:6rem;
+  }
+  .banner{
+
+    display: none;
+  }
+
+  .top-heading{
+  margin-top: 6rem;
+}
+}
 
