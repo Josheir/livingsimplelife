@@ -1,4 +1,4 @@
-/*-
+.main-part-of-page.keep-cooking-simple-precursor/*-
 --- 01 TYPOGRAPHY SYSTEM
 
 - Font sizes (px)
@@ -21,12 +21,14 @@
 
 html {
   font-size: 6px;
- 
   
 }
 
 body {
   width: 100%;
+  margin-top: 0rem;
+  margin-bottom: 0rem; 
+  
   
 }
 
@@ -116,11 +118,6 @@ header {
   padding-top: 2rem;
   margin-bottom:10rem;
   
-  
-  
-  
-  
-  
 }
 
 .title {
@@ -138,16 +135,16 @@ header {
 .site-title {
   font-size: 3rem;
   padding-top: 2rem;
-  padding-left:4rem;
+  
 }
 
 .sub-title {
   font-size: 1rem;
-  padding-bottom: 2.6rem;
+ 
   letter-spacing:.1rem;
-  
+  color: blue;
   letter-spacing: .3rem;
-  padding-left:4rem;
+  
 }
 
 
@@ -191,11 +188,11 @@ header {
 }
 
 .main-part-of-page-first-date {
-  margin-bottom: 9rem;
+  margin-bottom: 2.2rem;
   color: blue;
  
   font-size: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 0rem;
   text-align: center;
 }
 
@@ -246,7 +243,8 @@ header {
 
 .keep-cooking-simple-precursor {
   text-align: center;
-  margin-top: 7rem;
+  margin-top:3rem;
+ 
 }
 
 .large-image {
@@ -267,9 +265,9 @@ header {
 
 .article-title {
   font-size: 2.2rem;
-  margin-top: 8rem;
+  margin-top: 2rem;
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .keeping-cooking-simple-article-first-text {
@@ -278,8 +276,8 @@ header {
 
 .blue-link {
   color: blue;
-  margin-bottom: 7rem;
-  margin-top: 4.4rem;
+  margin-bottom: 2rem;
+  margin-top: 2em;
   font-size: 1.7rem;
   width: 90%;
   text-align: center;
@@ -304,7 +302,7 @@ header {
   text-align: center;
   padding: 3rem;
   margin: 0 auto;
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 
 
@@ -556,6 +554,7 @@ header {
     padding: 0px 3rem 0px 3rem;
     margin-top:3rem;
     margin-bottom: 3rem;
+    
     }
 
     .banner{
@@ -563,8 +562,7 @@ header {
       flex-direction: column;
       
       align-items: center;
-      padding-bottom: 5rem;
-      margin-bottom: 5rem;
+      
       
       
       
@@ -637,29 +635,29 @@ header {
 
 
 
-@media screen and (max-width: 399px){
+@media screen and (max-width: 466px){
 
   body{
   background-color: red;
   }
   .text {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
     .top-heading{
-    font-size: 2.2rem;
+    font-size: 1.6rem;
   }
   .blue-link{
-    font-size:1.5rem;
+    font-size:1rem;
   }
 
   .date{
 
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   nav a{
    
-   font-size: .9rem;
+   font-size: .7rem;
 
     
   }
@@ -673,21 +671,31 @@ header {
   }
 
   .aside-text{
-    font-size: 1.1rem;
+    font-size: .7rem;
   }
 
   .main-part-of-page-title-image {
     height: 140px;
     width:90%;
+    margin-bottom: 1rem;
 
 }
 
 .aside-heading{
-font-size: 1.1rem;
+font-size: .9rem;
+margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
 }
 
 .article-title{
-  font-size: 1.7rem;
+  font-size: 1.2rem;
+}
+.footer{
+  font-size: .7rem;
+}
+
+.main-part-of-page-first-date{
+  font-size: .9rem;
 }
 }
 
@@ -717,6 +725,7 @@ font-size: 1.1rem;
   }
   .main-part-of-page-first-date {
   margin-bottom:0rem;
+  
   }
   .banner{
 
@@ -742,5 +751,6 @@ top:20px;
   
   font-size: 3.6rem;
 }
+
 }
 

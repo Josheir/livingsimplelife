@@ -132,7 +132,7 @@
   .site-title {
     font-size: 3rem;
     padding-top: 2rem;
-    padding-left:4rem;
+    
   }
   
   .sub-title {
@@ -141,7 +141,7 @@
     letter-spacing:.1rem;
     color:blue;
     letter-spacing: .3rem;
-    padding-left:4rem;
+    
 
   }
 
@@ -214,9 +214,7 @@
     font-size: 2.0rem;
   }
 
-  .text-top-margin{
-    margin-top:10rem;
-  }
+  
   
   .third-text{
 
@@ -294,7 +292,7 @@
     text-align: center;
     padding: 3rem;
     margin: 0 auto;
-    margin-top: 6rem;
+    margin-top: 1rem;
   }
   
   
@@ -345,6 +343,10 @@
     width: 100%;
     margin-bottom: 2rem;
     text-align: center;
+  }
+
+  .third-text{
+    margin-bottom: 5rem;
   }
 
   /*/////////////////////////////
@@ -632,7 +634,7 @@
       }
     }
 
-    @media screen and (max-width: 399px){
+    @media screen and (max-width: 466px){
 
       body{
       background-color: red;
@@ -641,23 +643,17 @@
       /**/
 
       .text {
-        font-size: 1.6rem;
+        font-size: 1.0rem;
       }
         .top-heading{
-        font-size: 2.2rem;
+        font-size: 1.6rem;
+        
       }
-      .blue-link{
-        font-size:1.5rem;
-      }
-    
-      .date{
-    
-        font-size: 1.2rem;
-      }
+      
     
       nav a{
        
-       font-size: .9rem;
+       font-size: .7rem;
     
         
       }
@@ -671,23 +667,31 @@
       }
     
       .aside-text{
-        font-size: 1.1rem;
+        font-size: .7rem;
       }
     
       .main-part-of-page-title-image {
         height: 140px;
         width:90%;
+        margin-bottom: 3rem;
     
     }
     
     .aside-heading{
-    font-size: 1.1rem;
+    font-size: .9rem;
     }
     
     .article-title{
-      font-size: 1.7rem;
+      font-size: .9rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
     }
-    
+    .underline{
+      width: 3rem;
+    }
+    .footer{
+      font-size: .7rem;
+    }
       /**/
 
     }
