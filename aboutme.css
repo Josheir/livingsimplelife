@@ -329,6 +329,10 @@
   }
   
   .footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
     background-color: #add8e6;
     text-align: center;
     padding-bottom: 6rem;
