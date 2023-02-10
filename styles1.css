@@ -145,7 +145,7 @@ header {
   font-size: 1rem;
   padding-bottom: 2.6rem;
   letter-spacing:.1rem;
-  color:blue;
+  
   letter-spacing: .3rem;
   padding-left:4rem;
 }
@@ -518,7 +518,7 @@ header {
 
 */
 
-  @media screen and (max-width: 694px){
+  @media screen and (max-width: 612px){
 
     body{
       background-color: yellow;
