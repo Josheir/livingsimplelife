@@ -154,6 +154,26 @@ header {
   
 }
 
+.title{
+  text-align: center;
+  
+    
+    display: flex;
+  flex-direction: column;
+  padding: 0px 3rem 0px 3rem;
+  margin-top:3rem;
+  margin-bottom: 3rem;
+  
+  width:100%;
+  margin: 0rem;
+  
+  
+  
+  }
+  
+
+
+
 .title {
   display: flex;
   flex-direction: column;
