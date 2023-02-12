@@ -1,4 +1,4 @@
-.main-part-of-page.keep-cooking-simple-precursor/*-
+/*-
 --- 01 TYPOGRAPHY SYSTEM
 
 - Font sizes (px)
@@ -13,21 +13,32 @@
 * {
   margin: 0px;
   font-family: sans-serif;
-  max-width: 1000px;
+  font-size: 6px;
+  
+
+
   margin-left: auto;
   margin-right: auto;
+  
+
+
+  
   
 }
 
 html {
   font-size: 6px;
-  
+  max-width: 1000px;
 }
 
 body {
   width: 100%;
   margin-top: 0rem;
   margin-bottom: 0rem; 
+  margin-left: 0rem;
+  margin-right: 0rem;
+  
+  
   
   
 }
@@ -37,21 +48,39 @@ body {
 nav {
   
   font-size: 2rem;
+  background-color: red;
+  width: 100%;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  padding-top: 2rem;
-  margin-left:20rem;
+ 
+ 
+  flex-direction: row;
+  
+  
+  background-color: yellow;
+  
+  
+  
+  
+ 
+ 
   
   
 }
 
 nav a {
   text-decoration: none;
-  color: #707070;
+  color:blue;
   font-weight: 200;
+  font-size: 2rem;
+  margin-left: 0rem;
+  
+  
+  
+  
 }
 /*//////////////*/
 
@@ -84,19 +113,21 @@ a:active {
 
 
 nav li {
-  margin-left: 2rem;
+  
 }
 
 .last-link {
   margin-right: 8.0rem;
 }
 
+
+/*
 .first-link{
 
   margin-left:0rem;
   padding-left:0rem;
 }
-/*////////
+/*
 
 
 
@@ -114,9 +145,12 @@ header {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding-bottom:2rem;
+  padding-bottom:5rem;
   padding-top: 2rem;
   margin-bottom:10rem;
+  background-color: green;
+  
+  
   
 }
 
@@ -126,6 +160,10 @@ header {
   padding: 0px 3rem 0px 3rem;
   margin-top:3rem;
   margin-bottom: 3rem;
+  background-color: #707070;
+  
+  margin: 0rem;
+  
   
   
   
@@ -140,7 +178,7 @@ header {
 
 .sub-title {
   font-size: 1rem;
- 
+  padding-bottom: 2.6rem;
   letter-spacing:.1rem;
   color: blue;
   letter-spacing: .3rem;
@@ -157,12 +195,15 @@ header {
 /*/////////*/
 .most-outer {
   width: 100%;
+  margin-left: 5rem;
+  margin: 0 auto;
 }
 
 .entire-section {
   display: flex;
   flex-direction: row;
   width: 100%;
+  
   
 }
 
@@ -340,15 +381,13 @@ header {
 }
 
 .footer {
-  background-color: #add8e6;
-  position: fixed;
-    bottom:0;
-    left:0;
+  
     width: 100%;
   text-align: center;
   padding-bottom: 6rem;
   padding-top: 6rem;
   font-size: 4.4rem;
+  background-color: #add8e6;
  
 }
 
@@ -520,7 +559,19 @@ header {
 
 */
 
-  @media screen and (max-width: 612px){
+
+
+
+@media screen and (max-width: 701px){
+
+
+  body{
+    background-color: yellow;
+   
+  }
+}
+/*
+  @media screen and (max-width: 701px){
 
     body{
       background-color: yellow;
@@ -635,6 +686,8 @@ header {
     
   }
   
+*/
+
 
 
 
@@ -644,64 +697,93 @@ header {
   body{
   background-color: red;
   }
-  .text {
-    font-size: 1rem;
-  }
-    .top-heading{
-    font-size: 1.6rem;
-  }
-  .blue-link{
-    font-size:1rem;
-  }
+}
 
-  .date{
 
-    font-size: 1rem;
-  }
 
-  nav a{
-   
-   font-size: .7rem;
+@media screen and (max-width: 466px){
 
+      body{
+      background-color: red;
+      }
+
+      /**/
+
+      .text {
+        font-size: 1.0rem;
+      }
+        .top-heading{
+        font-size: 1.6rem;
+        
+      }
+      
     
-  }
+      nav a{
+       
+       font-size: .7rem;
+       margin-left: .10rem;
+    
+        
+      }
 
-  .site-title{
-    font-size: 3rem;
-  }
 
-  .sub-title{
-    font-size: 1.0rem;
-  }
 
-  .aside-text{
-    font-size: .7rem;
-  }
 
-  .main-part-of-page-title-image {
-    height: 140px;
-    width:90%;
-    margin-bottom: 1rem;
+      nav ul{
 
-}
 
-.aside-heading{
-font-size: .9rem;
-margin-top: 1.5rem;
+      }
+    
+
+
+      .site-title{
+        font-size: 3rem;
+      }
+    
+      .sub-title{
+        font-size: 1.0rem;
+      }
+    
+      .aside-text{
+        font-size: .7rem;
+      }
+    
+      .main-part-of-page-title-image {
+        height: 140px;
+        width:90%;
+        margin-bottom: 3rem;
+    
+    }
+    
+    .aside-heading{
+    font-size: .9rem;
+    }
+    
+    .article-title{
+      font-size: .9rem;
+      margin-top: 1.5rem;
       margin-bottom: 1.5rem;
-}
+    }
+    .underline{
+      width: 3rem;
+    }
+    .footer{
+      font-size: .7rem;
+    }
+      /**/
 
-.article-title{
-  font-size: 1.2rem;
-}
-.footer{
-  font-size: .7rem;
-}
+      .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+        
+        
+      }
 
-.main-part-of-page-first-date{
-  font-size: .9rem;
-}
-}
+    }
 
 
 @media print {
@@ -757,4 +839,5 @@ top:20px;
 }
 
 }
+
 
