@@ -52,6 +52,8 @@ nav {
   width: 100%;
 }
 
+
+
 nav ul {
   list-style: none;
   display: flex;
@@ -60,8 +62,10 @@ nav ul {
   flex-direction: row;
   
   
-  background-color: yellow;
   
+  background-color: yellow;
+  justify-content:right;
+  margin-right:5rem;
   
   
   
@@ -76,13 +80,16 @@ nav a {
   color:blue;
   font-weight: 200;
   font-size: 1.4rem;
-  
+  margin-left: 2rem;
   
   
   
   
   
 }
+
+
+
 /*//////////////*/
 
 p {
@@ -159,7 +166,7 @@ header {
 }
 
 .title{
-  text-align: center;
+  
   
     
     display: flex;
@@ -224,12 +231,19 @@ header {
 }
 
 .entire-section {
+  
+  
   display: flex;
   flex-direction: row;
   width: 100%;
   
+ 
+  }
+
+ 
   
-}
+  
+
 
 .main-part-of-page {
   width: 65%;
@@ -413,6 +427,10 @@ header {
   font-size: 4.4rem;
   background-color: #add8e6;
  
+}
+
+.nav2{
+  display: none;
 }
 
 
@@ -725,16 +743,20 @@ header {
 
 
 
-@media screen and (max-width: 641px){
+@media screen and (max-width: 619px){
 
       body{
       background-color: red;
       }
 
+      .entire-section{
+        display: flex;
+        justify-content: center;
+      }
       /**/
 
       .text {
-        font-size: 1.0rem;
+        
       }
         .top-heading{
         font-size: 1.6rem;
@@ -756,6 +778,12 @@ header {
         border: 1px solid black;
         
         
+      }
+
+
+      .text{
+        margin-left: 10rem;
+        margin-right: 10rem;
       }
 
       
@@ -884,25 +912,58 @@ background-color: #0F0;
         
         
       }
-      .nav3{
+      .nav2{
         border:1px solid #ccc;
         margin:0;
         padding:0;
         text-align: center;
       }
 
-      .nav3 li{
+      .nav2 li{
         display: inline;
       }
 
-      .nav3 a {
+      .nav2 a {
         display: inline-block;
-        padding:10px;
+        padding:5px;
+      }
+
+      nav{
+        display: none;
+      }
+      .nav2{
+        display:block;
+      }
+
+      .images-on-right{
+        display:none;
+      }
+
+
+    }
+
+    @media screen and (max-width: 386px){
+
+      
+      .text{
+        margin-left: 8rem;
+        margin-right: 8rem;
+      }
+        
+      }
+
+      @media screen and (max-width: 357px){
+
+        .text{
+          font-size: 1rem;
+
+        }
+
       }
 
 
 
-    }
+    
 
 
 @media print {
