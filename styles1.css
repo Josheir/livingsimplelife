@@ -884,18 +884,18 @@ background-color: #0F0;
         
         
       }
-      .nav2{
+      .nav3{
         border:1px solid #ccc;
         margin:0;
         padding:0;
         text-align: center;
       }
 
-      .nav2 li{
+      .nav3 li{
         display: inline;
       }
 
-      .nav2 a {
+      .nav3 a {
         display: inline-block;
         padding:10px;
       }
