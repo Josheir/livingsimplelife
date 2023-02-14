@@ -65,7 +65,7 @@ nav ul {
   
   background-color: yellow;
   justify-content:right;
-  margin-right:5rem;
+ 
   
   
   
@@ -858,8 +858,7 @@ background-color: #0F0;
 
       nav ul{
 
-        margin: 0rem;
-        justify-content: center;
+     justify-content: center;
         
         
 
