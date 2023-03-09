@@ -15,34 +15,26 @@
   font-family: sans-serif;
   font-size: 6px;
   
-
-
-  
-  
-  
-
-
-  
-  
 }
 
 html {
   font-size: 6px;
   max-width: 1000px;
+  display: table;
+  margin: auto;
+  
+
 }
 
 body {
   width: 100%;
   margin-top: 0rem;
   margin-bottom: 0rem; 
-  margin-left: 0rem;
-  margin-right: 0rem;
-  
-  
+  display: table-cell;
+  vertical-align: middle; 
   
   
 }
-
 
 
 nav {
@@ -51,8 +43,6 @@ nav {
   background-color: red;
   width: 100%;
 }
-
-
 
 nav ul {
   
@@ -67,14 +57,8 @@ nav ul {
   background-color: yellow;
   justify-content:center;
  
-  
-  
-  
- 
- 
-  
-  
 }
+
 
 nav a {
   text-decoration: none;
