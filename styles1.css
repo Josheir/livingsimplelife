@@ -20,8 +20,7 @@
 html {
   font-size: 6px;
   max-width: 1000px;
-  display: table;
-  margin: auto;
+  
   
 
 }
@@ -30,8 +29,7 @@ body {
   width: 100%;
   margin-top: 0rem;
   margin-bottom: 0rem; 
-  display: table-cell;
-  vertical-align: middle; 
+  
   
   
 }
@@ -156,7 +154,6 @@ header {
   padding: 0px 3rem 0px 3rem;
   margin-top:3rem;
   margin-bottom: 3rem;
-  
   width:100%;
   margin: 0rem;
   
@@ -174,7 +171,7 @@ header {
   margin-top:3rem;
   margin-bottom: 3rem;
   background-color: #707070;
-  
+  width:100%;
   margin: 0rem;
   
   
