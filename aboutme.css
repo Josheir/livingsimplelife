@@ -58,11 +58,8 @@
     text-align: center;
 
     background-color: yellow;
-    justify-content:right;
-    margin-right:5rem;
-   
-   
-    
+    justify-content:center;
+        
   }
   
   nav a {
@@ -177,9 +174,14 @@
 
   }
 
-  .underline {
-    border-top-style: solid;
-    width:6rem;
+  
+
+  a{
+    text-decoration: underline;
+  }
+  span{
+    border-bottom-style: solid ;
+    font-size: 1.4rem;
   }
   
   /*/////////*/
@@ -665,6 +667,8 @@
       }
       
       .underline{
+        font-size: 54rem;
+        border-top-style: solid;
         width:7.3rem;
       }
 
@@ -768,6 +772,8 @@
       margin-bottom: 1.5rem;
     }
     .underline{
+      font-size: 54rem;
+      border-top-style: solid;
       width: 3rem;
     }
     .footer{

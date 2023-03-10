@@ -38,21 +38,25 @@
   nav {
     /*order:1;*/
     font-size: 2rem;
+    width: 100%;
   }
   
   nav ul {
     list-style: none;
     display: flex;
-    padding-top: 2rem;
+    flex-direction: row;
     
-    text-align: center;
+    background-color: yellow;
+    justify-content:center;
+    
   }
   
   nav a {
-    
     text-decoration: none;
-    
-    font-weight: 200;
+  color:blue;
+  font-weight: 200;
+  font-size: 1.4rem;
+  margin-left: 2rem;
     
   }
   /*//////////////*/
@@ -102,6 +106,10 @@
     
   }
   
+  .nav2{
+    display: none;
+    }
+    
   
   .last-link {
    
