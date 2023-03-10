@@ -14,6 +14,7 @@
   margin: 0px;
   font-family: sans-serif;
   font-size: 6px;
+  margin: 0px;
   
 }
 
@@ -21,6 +22,7 @@ html {
   font-size: 6px;
   max-width: 1000px;
   
+   margin: auto;
   
 
 }
@@ -29,7 +31,7 @@ body {
   width: 100%;
   margin-top: 0rem;
   margin-bottom: 0rem; 
-  
+  margin-bottom: 0rem;
   
   
 }
@@ -60,11 +62,13 @@ nav a {
   font-size: 1.4rem;
   margin-left: 2rem;
   
-  
-  
-  
-  
 }
+  .center{
+    text-align: center;
+  }
+  
+  
+
 
 .nav2{
 display: none;
@@ -138,29 +142,15 @@ header {
   padding-bottom:5rem;
   padding-top: 2rem;
   margin-bottom:10rem;
-  background-color: green;
+  
+  
   
   
   
   
 }
 
-.title{
-  
-  
-    
-    display: flex;
-  flex-direction: column;
-  padding: 0px 3rem 0px 3rem;
-  margin-top:3rem;
-  margin-bottom: 3rem;
-  width:100%;
-  margin: 0rem;
-  
-  
-  
-  }
-  
+
 
 
 
@@ -173,10 +163,6 @@ header {
   background-color: #707070;
   width:100%;
   margin: 0rem;
-  
-  
-  
-  
   
 }
 
@@ -400,12 +386,7 @@ span{
 
 .footer {
   
-    width: 100%;
-  text-align: center;
-  padding-bottom: 6rem;
-  padding-top: 6rem;
-  font-size: 4.4rem;
-  background-color: #add8e6;
+  
  
 }
 
