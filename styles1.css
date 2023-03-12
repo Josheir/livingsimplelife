@@ -39,7 +39,7 @@ body {
 
 nav {
   
-  font-size: 2rem;
+  
   background-color: red;
   width: 100%;
 }
@@ -51,6 +51,8 @@ nav ul {
   flex-direction: row;
   background-color: yellow;
   justify-content:center;
+  margin-top: 0%;
+  
  
 }
 
