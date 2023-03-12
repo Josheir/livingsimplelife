@@ -12,7 +12,7 @@
 
 * {
     margin: 0px;
-    font-family: sans-serif;
+   
     font-size: 6px;
    
   
@@ -22,10 +22,12 @@
   
   html {
     font-size: 6px;
+    margin: auto;
     max-width: 1000px;
-    
    
-    
+   
+   font-family:sans-serif, Courier, monospace;
+    overflow: scroll;
    
   }
   
@@ -58,7 +60,7 @@
 
     background-color: yellow;
     justify-content:center;
-        
+    margin-top: 0;        
   }
   
   nav a {
@@ -198,7 +200,7 @@
   }
   
   .main-part-of-page {
-    width: 65%;
+    width: 100%;
     
     
     
@@ -317,7 +319,7 @@
   }
   
   .images-on-right {
-    width: 35%;
+    width: 100%;
   }
   
   .image-on-right-top {
