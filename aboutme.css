@@ -11,300 +11,233 @@
 /*//////desktop////////////////*/
 
 * {
-    margin: 0px;
-   
-    font-size: 6px;
-   
-  
-  
-  
-  }
-  
-  html {
-    font-size: 6px;
-    margin: auto;
-    max-width: 1000px;
-   
-   
-   font-family:sans-serif, Courier, monospace;
-    overflow: scroll;
-   
-  }
-  
-  body {
-    width: 100%;
-  margin-top: 0rem;
-  margin-bottom: 0rem; 
-  
-    
-  }
-  
-  
-  nav li {
-    
-  }
-  
-  nav {
-    /*order:1;*/
-    font-size: 2rem;
-    background-color: red;
-    width: 100%;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    
-    flex-direction: row;
-    text-align: center;
+  margin: 0px;
 
-    background-color: yellow;
-    justify-content:center;
-    margin-top: 0;        
-  }
-  
-  nav a {
-    
-    text-decoration: none;
-    color:blue;
-    font-weight: 200;
-    font-size: 1.4rem;
-    /*hack*/
-    margin-left: 2rem;
-    
-  }
-  /*//////////////*/
-  
-  p {
-  }
-  
-  h1 {
-    color: blue;
-  }
-  
-  h4 {
-  }
-  
-  h5 {
-  }
-  
-  a:link {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: none;
-    color: black;
-  }
-  
-  a:active {
-    text-decoration: none;
-  }
-  
-  nav {
-  }
-  
-  nav li {
-    margin-left: 0rem;
-    
-  }
-  
-  
-  .last-link {
-   
-    margin-right: 8rem;
-  }
-  
-  /*////////
-  
-  
-  
-  
-  
-  ////////*/
-  
-  header {
-    width: 100%;
-    text-align: center;
-    background-color: #add8e6;
-  }
-  
-  .banner {
-    display: flex;
+  font-size: 6px;
+}
+
+html {
+  font-size: 6px;
+  margin: auto;
+  max-width: 1000px;
+
+  font-family: sans-serif, Courier, monospace;
+  overflow: scroll;
+}
+
+body {
+  width: 100%;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+nav li {
+}
+
+nav {
+  /*order:1;*/
+  font-size: 2rem;
+  background-color: red;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+
+  flex-direction: row;
+  text-align: center;
+
+  background-color: yellow;
+  justify-content: center;
+  margin-top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+  font-weight: 200;
+  font-size: 1.4rem;
+  /*hack*/
+  margin-left: 2rem;
+}
+/*//////////////*/
+
+p {
+}
+
+h1 {
+  color: blue;
+}
+
+h4 {
+}
+
+h5 {
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+nav {
+}
+
+nav li {
+  margin-left: 0rem;
+}
+
+.last-link {
+  margin-right: 8rem;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: #add8e6;
+}
+
+.banner {
+  display: flex;
   flex-direction: row;
   width: 100%;
-  padding-bottom:5rem;
+  padding-bottom: 5rem;
   padding-top: 2rem;
-  margin-bottom:10rem;
+  margin-bottom: 10rem;
   background-color: rgb(0, 255, 13);
-  
- 
- 
-  
-  }
-  
-  .title {
-    
-    display: flex;
+}
+
+.title {
+  display: flex;
   flex-direction: column;
   padding: 0px 3rem 0px 3rem;
-  margin-top:3rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
   background-color: #707070;
-  
+
   margin: 0rem;
   width: 100%;
-  
-  
-  
-  }
-  
-  .site-title {
-    font-size: 3rem;
-    padding-top: 2rem;
-    
-  }
-  
-  .sub-title {
-    font-size: 1rem;
-    padding-bottom: 2.6rem;
-    letter-spacing:.1rem;
-    color:blue;
-    letter-spacing: .3rem;
-    
+}
 
-  }
+.site-title {
+  font-size: 3rem;
+  padding-top: 2rem;
+}
 
-  
+.sub-title {
+  font-size: 1rem;
+  padding-bottom: 2.6rem;
+  letter-spacing: 0.1rem;
+  color: blue;
+  letter-spacing: 0.3rem;
+}
 
-  a{
-    text-decoration: underline;
-  }
-  span{
-    border-bottom-style: solid ;
-    font-size: 1.4rem;
-  }
-  
-  /*/////////*/
-  .most-outer {
-    width: 100%;
-  }
-  
-  .entire-section {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    
-    
-    
-  }
-  
-  .main-part-of-page {
-    width: 100%;
-    
-    
-    
-  }
-  
-  .main-part-of-page-title-image {
-    width: 68%;
-    height: 38rem;
-    background-image: url("./images/about-me.jpg");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-style: solid;
-    border-width: 1px;
-   margin:0 auto;
-   margin-bottom: 9rem;
+a {
+  text-decoration: underline;
+}
+span {
+  border-bottom-style: solid;
+  font-size: 1.4rem;
+}
 
-     
-  }
-  
-  .main-part-of-page-first-date {
-    margin-bottom: 9rem;
-    color: blue;
-    margin-left: 10rem;
-    font-size: 3.6rem;
-    margin-top: 1rem;
-  }
-  
-  
-  .main-part-of-page-top {
-    width: 100%;
-  }
-  
-  
-  
-  
-  
-  
-  .text {
-    font-size: 2rem;
-    margin: 0 auto;
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-  
-  .text-size {
-    font-size: 2.0rem;
-  }
+.most-outer {
+  width: 100%;
+}
 
-  
-  
-  .third-text{
+.entire-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
 
-    margin-bottom: 10rem;
-    
-  }
-  
-  /*.keeping-cooking-simple-article-blue-link {
-    width: 100%;
-    margin: 0 auto;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-top: 4.4rem;
-    text-align: center;
-  }
-  */
-  
-  .three-articles {
-    margin-left: 0rem;
-    width: 100%;
-  }
-  
-  .keep-cooking-simple-precursor {
-    text-align: center;
-    margin-top: 7rem;
-  }
-  
-  .large-image {
-    border: 1px solid;
-    width:70%;
-    margin-left:2rem;
-    
-  }
-  
-  .date {
-    margin-top: 1rem;
-    font-size: 3.6rem;
-    margin-left: 0rem;
-    color: blue;
-  }
-  
-  
-  .article-title {
-    font-size: 2.2rem;
-    margin-top: 6.8rem;
-    text-align: center;
-    margin-bottom: 5rem;
-    
-  }
-  
-  .keeping-cooking-simple-article-first-text {
-  }
-  
-  /*.blue-link {
+.main-part-of-page {
+  width: 100%;
+}
+
+.main-part-of-page-title-image {
+  width: 68%;
+  height: 38rem;
+  background-image: url("./images/about-me.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0 auto;
+  margin-bottom: 9rem;
+}
+
+.main-part-of-page-first-date {
+  margin-bottom: 9rem;
+  color: blue;
+  margin-left: 10rem;
+  font-size: 3.6rem;
+  margin-top: 1rem;
+}
+
+.main-part-of-page-top {
+  width: 100%;
+}
+
+.text {
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.text-size {
+  font-size: 2rem;
+}
+
+.third-text {
+  background-color: aquamarine;
+  margin-bottom: 100rem;
+}
+
+.three-articles {
+  margin-left: 0rem;
+  width: 100%;
+}
+
+.keep-cooking-simple-precursor {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.large-image {
+  border: 1px solid;
+  width: 70%;
+  margin-left: 2rem;
+}
+
+.date {
+  margin-top: 1rem;
+  font-size: 3.6rem;
+  margin-left: 0rem;
+  color: blue;
+}
+
+.article-title {
+  font-size: 2.2rem;
+  margin-top: 6.8rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.keeping-cooking-simple-article-first-text {
+}
+
+/*.blue-link {
     color: blue;
     margin-bottom: 7rem;
     margin-top: 4.4rem;
@@ -312,542 +245,284 @@
     width: 90%;
     margin-left: 10rem;
   }*/
-  
-  .image-and-date {
-    text-align: center;
-    margin-left: 0rem;
+
+.image-and-date {
+  text-align: center;
+  margin-left: 0rem;
+}
+
+.images-on-right {
+  width: 100%;
+}
+
+.image-on-right-top {
+  width: 60%;
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 3rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+
+.aside-heading {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+/*on upper right*/
+.large-image-lower {
+  border: 1px solid rgb(102, 47, 47);
+  width: 80%;
+}
+
+.aside-text {
+  margin: 0rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+.images-on-right-bottom {
+  width: 60%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 3rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.footer {
+  background-color: #add8e6;
+  text-align: center;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  font-size: 4.4rem;
+  width: 100%;
+  margin-top: auto;
+}
+
+.top-heading {
+  color: rgb(76, 0, 255);
+  font-size: 3rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.third-text {
+  margin-bottom: 5rem;
+}
+
+.nav2 {
+  display: none;
+}
+
+@media screen and (max-width: 772px) {
+  body {
+    background-color: yellow;
   }
-  
-  .images-on-right {
-    width: 100%;
+
+  a:hover {
+    text-decoration: none;
+    color: blue;
   }
-  
-  .image-on-right-top {
-    width: 60%;
-    border: 1px solid #000000;
-    text-align: center;
-    padding: 3rem;
-    margin: 0 auto;
-    margin-top: 1rem;
-  }
-  
-  
-  .aside-heading {
-    font-size: 1.8rem;
-    text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-  }
-  
-  
-  /*on upper right*/
-  .large-image-lower {
-    border: 1px solid rgb(102, 47, 47);
-    width: 80%;
-  }
-  
+
   .aside-text {
-    margin: 0rem;
+    font-size: 2rem;
+  }
+  .site-title {
+    font-size: 3rem;
+  }
+  .sub-title {
+    font-size: 1rem;
+  }
+
+  .title {
     text-align: center;
-    font-weight: bold;
-    font-size: 1.8rem;
-    padding-top: 1rem;
-    padding-bottom: 4rem;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+  }
+  .top-heading {
+    font-size: 3rem;
+  }
+
+  .entire-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
-  .images-on-right-bottom {
+  .main-part-of-page-title-image {
+    text-align: center;
     width: 60%;
-    border: 1px solid black;
-    text-align: center;
-    padding: 3rem;
-    margin: 0 auto;
-    margin-top: 5rem;
   }
+
+  .main-part-of-page {
+    order: 2;
+  }
+
+  .text {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  nav ul {
+    font-size: medium;
+  }
+  nav a {
+    color: #020202;
+    font-size: 1.7rem;
+  }
+
+  .underline {
+    font-size: 54rem;
+    border-top-style: solid;
+    width: 7.3rem;
+  }
+
+  .article-title {
+    font-size: 2.8rem;
+  }
+
+  .nav2 {
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: yellowgreen;
+  }
+
+  .nav2 li {
+    display: inline;
+  }
+
+  .nav2 a {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  nav {
+    display: none;
+  }
+  .nav2 {
+    display: block;
+  }
+
   
-  .footer {
+
+  ul a {
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  body {
+    background-color: rgb(0, 255, 51);
+  }
+
+  /**/
+
+  nav {
+    margin-top: 2rem;
     
-    
-    
-      background-color: #add8e6;
-      text-align: center;
-      padding-bottom: 6rem;
-      padding-top: 6rem;
-      font-size: 4.4rem;
-      width:100%;
-      margin-top: auto;
-      
-    
+  }
+  .text {
+    font-size: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 
   .top-heading {
-    color: rgb(76, 0, 255);
+    font-size: 1.6rem;
+  }
+
+  nav a {
+    font-size: 0.7rem;
+  }
+
+  .site-title {
     font-size: 3rem;
-    width: 100%;
-    margin-bottom: 2rem;
-    text-align: center;
   }
 
-  .third-text{
-    margin-bottom: 5rem;
+  .sub-title {
+    font-size: 1rem;
   }
 
-  .nav2{
-    display: none;
+  .aside-text {
+    font-size: 0.7rem;
   }
-  
 
-  /*/////////////////////////////
-  /////////////////////////////*/
-
-/*
-  @media screen and (max-width: 1083px){
-
-    
-
-    nav a{
-      
-     
-      
-
-    }
-
-    .main-part-of-page-title-image{
-      height:30rem;
-    }
-      
-    
-      .site-title {
-        font-size: 3.4rem;
-        
-      }
-      
-      .sub-title {
-        font-size: 2.4rem;
-        
-      }
-      
-      
-
-
-
-
-    }
-  
-    
-    @media screen and (max-width: 1057px){
-  
-      
-        
-      
-        .site-title {
-          font-size: 2.7rem;
-          padding-bottom: .3rem;
-        }
-        
-        .sub-title {
-          font-size: 1.5rem;
-          letter-spacing: .2rem;
-          font-weight: 550;
-        }
-          
-          
-        }
-        
-  
-      
-
-
-
-
-
-  
-  @media screen and (max-width: 996px){
-  
-    body{
-      
-    }
-    .site-title {
-      font-size: 2.4rem;
-      
-    }
-    
-    .sub-title {
-      font-size: 1.2rem;
-      font-weight: 800;
-      
-      
-  
-    }
-  
-     nav ul{
-    margin-left:20rem;
+  .main-part-of-page-title-image {
+    height: 140px;
+    width: 70%;
+    margin-bottom: 3rem;
   }
-    }
-    
-  
 
-
-
-
-  @media screen and (max-width: 880px){
-  
-    .top-heading{
-      font-size: 4rem;
-    }
-    .text{
-      font-size:3rem;
-  
-    }
-    .main-part-of-page-title-image{
-      height:30rem;
-    }
-  
-    nav ul{
-      margin-left:0rem;
-    }
-
-    .aside-text{
-
-    font-size:2rem;
-  
+  .aside-heading {
+    font-size: 0.9rem;
   }
+
+  .article-title {
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .underline {
+    font-size: 54rem;
+    border-top-style: solid;
+    width: 3rem;
+  }
+  .footer {
+    font-size: 0.7rem;
+  }
+  /**/
 }
-  
 
-
-
-
-
-  @media screen and (max-width: 771px){
-  
-    .text{
-      font-size:2rem;
-    }
-  
-    .site-title {
-      font-size: 2.7rem;
-      
-    }
-    
-    .sub-title {
-      font-size: 1.5rem;
-      
-  
-      letter-spacing:.3rem;
-    }
-  
-  }
-
-
-  @media screen and (max-width: 745px){
-
-    
-  }
-
-
-
-
-
-    
-    
-  
-    @media screen and (max-width: 711px){
-  
- 
-      .site-title {
-        font-size: 2.2rem;
-        padding-bottom: .25rem;
-      }
-  
-      .sub-title {
-        font-size: 1.3rem;
-        color:blue;
-        letter-spacing:.2rem;
-        
-        
-      }
-
-      nav a{
-        font-size: 1.4rem;
-      }
-      .underline{
-        width:5.9rem;
-      }
-      
-  
-    }
-
-    
-
-
-
-*/
-    
-
-
-  
-    @media screen and (max-width: 612px){
-  
-
-      body{
-        background-color: yellow;
-      }
-      
-      a:hover {
-        text-decoration: none;
-        color: blue;
-      }
-  
-      .aside-text{
-  
-        font-size: 2rem;
-      }
-      .site-title{
-  
-        font-size: 3rem;
-        
-      }
-      .sub-title{
-        font-size: 1rem;
-        
-        
-      }
-
-
-
-  
-      .title{
-        text-align: center;
-        
-      }
-      .banner{
-        display: flex;
-        flex-direction: column;
-        
-        align-items: center;
-        padding-bottom: 5rem;
-        margin-bottom: 5rem;
-        
-        
-      }
-      .top-heading{
-        font-size: 3rem;
-      }
-    
-
-
-      .entire-section {
-        
-        display:flex;
-        justify-content: center;
-        
-        
-      }
-      .images-on-right{
-    
-        display: none;
-        
-      }
-      .main-part-of-page-title-image{
-        text-align: center;
-      }
-      
-      .main-part-of-page{
-        order:2;
-      }
-  
-
-
-
-      .text{
-        margin-left: 0rem;
-        margin-right: 0rem;
-      }
-      nav ul{
-        font-size: medium;
-      }
-      nav a {
-        color: #020202;
-        font-size: 1.7rem;
-        
-      }
-      
-      .underline{
-        font-size: 54rem;
-        border-top-style: solid;
-        width:7.3rem;
-      }
-
-      .article-title{
-        font-size: 2.8rem;
-      }
-
-      .nav2{
-        border:1px solid #ccc;
-        margin:0;
-        padding:0;
-        text-align: center;
-        background-color: yellowgreen;
-      }
-
-      .nav2 li{
-        display: inline;
-      }
-
-      .nav2 a {
-        display: inline-block;
-        padding:5px;
-        
-        
-      }
-
-      nav{
-        display: none;
-      }
-      .nav2{
-        display:block;
-      }
-
-      .images-on-right{
-        display:none;
-      }
-
-      ul a{
-        display: inline-block;
-        padding: 1rem;
-        margin: 1rem;
-        border: 1px solid black;
-      }
-
-
-    }
-
-
-    
-
-    @media screen and (max-width: 466px){
-
-      body{
-      background-color: red;
-      }
-
-      /**/
-
-      .text {
-        font-size: 1.0rem;
-      }
-        .top-heading{
-        font-size: 1.6rem;
-        
-      }
-      
-    
-      nav a{
-       
-       font-size: .7rem;
-    
-        
-      }
-    
-      .site-title{
-        font-size: 3rem;
-      }
-    
-      .sub-title{
-        font-size: 1.0rem;
-      }
-    
-      .aside-text{
-        font-size: .7rem;
-      }
-    
-      .main-part-of-page-title-image {
-        height: 140px;
-        width:90%;
-        margin-bottom: 3rem;
-    
-    }
-    
-    .aside-heading{
-    font-size: .9rem;
-    }
-    
-    .article-title{
-      font-size: .9rem;
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-    .underline{
-      font-size: 54rem;
-      border-top-style: solid;
-      width: 3rem;
-    }
-    .footer{
-      font-size: .7rem;
-    }
-      /**/
-
-    }
-
-    
-
-    @media print {
-
-  
-  .images-on-right{
+@media print {
+  .images-on-right {
     display: none;
   }
 
-  .main-part-of-page-title-image{
+  .main-part-of-page-title-image {
     display: none;
   }
 
-  .large-image{
-    
+  .large-image {
     display: none;
   }
 
-  
-  .top-heading{
+  .top-heading {
     margin-bottom: 6rem;
     margin-top: 6rem;
   }
 
- 
-
-  .banner{
-
-    
+  .banner {
   }
 
-  .sub-title{
+  .sub-title {
     font-size: 2rem;
     font-weight: 500;
     position: absolute;
-  left:-13px;
-  top:64px;
+    left: -13px;
+    top: 64px;
   }
-  .site-title{
+  .site-title {
     position: absolute;
-  left:46px;
-  top:20px;
-    
+    left: 46px;
+    top: 20px;
+
     font-size: 3.6rem;
   }
-  
 }
-
-
-
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
