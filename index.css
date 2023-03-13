@@ -19,19 +19,22 @@
 }
 html {
   font-size: 6px;
-  margin: auto;
+  
   max-width: 1000px;
  
   overflow: scroll;
   font-family:sans-serif, Courier, monospace;
   height:100%;
+ 
+ 
 }
 
 body {
   width: 100%;
   margin-top: 0rem;
   margin-bottom: 0rem; 
-  
+  margin-left: 0%;
+ 
   
 }
 
@@ -136,6 +139,7 @@ header {
   width: 100%;
   text-align: center;
   background-color: #add8e6;
+  
 }
 
 .banner {
@@ -146,6 +150,7 @@ header {
   padding-bottom:5rem;
   padding-top: 2rem;
   margin-bottom:10rem;
+ 
   
   
   
@@ -167,6 +172,7 @@ header {
   background-color: #707070;
   width:100%;
   margin: 0rem;
+  margin-left: 0%;
   
 }
 
