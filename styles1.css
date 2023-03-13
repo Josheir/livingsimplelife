@@ -17,21 +17,20 @@
   
   
 }
-
 html {
   font-size: 6px;
   margin: auto;
   max-width: 1000px;
  
   overflow: scroll;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:sans-serif, Courier, monospace;
+  height:100%;
 }
 
 body {
   width: 100%;
   margin-top: 0rem;
   margin-bottom: 0rem; 
-  
   
   
 }
@@ -396,10 +395,19 @@ span{
 }
 
 .footer {
+    
   
-  
- 
-}
+    
+    background-color: #add8e6;
+    text-align: center;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    font-size: 4.4rem;
+    width:100%;
+    margin-top: auto;
+    
+  }
+
 
 .nav2{
   

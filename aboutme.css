@@ -366,12 +366,17 @@
   
   .footer {
     
-    background-color: #add8e6;
-    text-align: center;
-    padding-bottom: 6rem;
-    padding-top: 6rem;
-    font-size: 4.4rem;
-   
+    
+    
+      background-color: #add8e6;
+      text-align: center;
+      padding-bottom: 6rem;
+      padding-top: 6rem;
+      font-size: 4.4rem;
+      width:100%;
+      margin-top: auto;
+      
+    
   }
 
   .top-heading {
