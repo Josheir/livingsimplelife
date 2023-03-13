@@ -367,6 +367,8 @@ span {
     width: 60%;
   }
 
+
+
   .main-part-of-page {
     order: 2;
   }
@@ -383,11 +385,13 @@ span {
     font-size: 1.7rem;
   }
 
+  /*
   .underline {
     font-size: 54rem;
     border-top-style: solid;
     width: 7.3rem;
   }
+*/
 
   .article-title {
     font-size: 2.8rem;
@@ -426,6 +430,9 @@ span {
     border: 1px solid black;
   }
 }
+
+
+
 
 @media screen and (max-width: 466px) {
   body {
@@ -479,15 +486,11 @@ span {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
-  .underline {
-    font-size: 54rem;
-    border-top-style: solid;
-    width: 3rem;
-  }
+  
   .footer {
     font-size: 0.7rem;
   }
-  /**/
+  
 }
 
 @media print {
@@ -508,8 +511,7 @@ span {
     margin-top: 6rem;
   }
 
-  .banner {
-  }
+  
 
   .sub-title {
     font-size: 2rem;
