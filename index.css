@@ -590,6 +590,15 @@ span{
 
 
 
+@media screen and (max-width: 920px){
+
+  .main-part-of-page-title-image{
+
+    width: 100%;
+  }
+
+}
+
 
 @media screen and (max-width: 701px){
 
@@ -730,10 +739,10 @@ span{
 
 
 
-@media screen and (max-width: 619px){
+@media screen and (max-width: 830px){
 
       body{
-      background-color: red;
+      background-color: rgb(255, 0, 119);
       }
 
       .entire-section{
