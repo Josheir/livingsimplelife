@@ -19,7 +19,7 @@
 
 * {
   margin: 0px;
-  padding: 0%;
+  
   
   font-size: 6px;
   
@@ -28,11 +28,6 @@
 }
 
 
-*::before, *::after{
-
-
-
-}
 
 html {
   font-size: 6px;
@@ -42,8 +37,10 @@ html {
   overflow: scroll;
   
   height:100%;
-  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'
-  
+  /*font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'
+  */
+  font-family: sans-serif, Courier, monospace;
+
 }
 
 body {
@@ -127,29 +124,7 @@ a:active {
 
 
 
-nav li {
-  
-}
 
-/*
-.last-link {
-  margin-right: 8.0rem;
-}
-*/
-
-/*
-.first-link{
-
-  margin-left:0rem;
-  padding-left:0rem;
-}
-/*
-
-
-
-
-
-////////*/
 
 header {
   width: 100%;
@@ -160,11 +135,10 @@ header {
 .banner {
   display: flex;
   flex-direction: row;
-  
   width: 100%;
   padding-bottom:5rem;
   padding-top: 2rem;
-  
+  margin-bottom: 10rem;
   
   
   
@@ -204,21 +178,11 @@ header {
   
 }
 
-span{
-  border-bottom-style: solid ;
-  font-size: 1.4rem;
-}
 
-
-
-
-/*/////////*/
 .most-outer {
   width: 100%;
   margin-left: 0rem;
  
-  
-  
 }
 
 .entire-section {
@@ -227,24 +191,13 @@ span{
   display: flex;
   flex-direction: row;
   width: 100%;
-  
-  
-  
-  
-
- 
   }
 
  
-  
-  
-
-
-.main-part-of-page {
+  .main-part-of-page {
   width: 100%;
- 
-  
-  
+
+
   
 }
 
@@ -284,9 +237,9 @@ span{
   width: 100%;
   
   text-align: center;
+ margin-top: 3rem; 
   
-  
-margin-top: 3rem;
+
   
 
  
@@ -302,130 +255,36 @@ margin-top: 3rem;
  
 }
 
+
+a {
+  font-size: 3rem;
+}
+
 a.link{
   
   font-size: 3rem;
 }
 
-.text-size {
-  font-size: 3rem;
-}
 
-.test{
-  font-size: 3rem;
-}
 
-.keeping-cooking-simple-article-blue-link {
-  width: 100%;
-  margin: 0 auto;
-  margin-left: .5rem;
-  margin-right: 10rem;
-  margin-top: 4.4rem;
-
-}
 
 .three-articles {
   margin-left: 0rem;
   width: 100%;
 }
 
-.keep-cooking-simple-precursor {
-  text-align: center;
-  margin-top:3rem;
- 
-}
 
-.large-image {
-  border: 1px solid;
-  width:70%;
-  
  
   
-}
-
-.date {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-  margin-left: 0rem;
-  color: blue;
-}
-
-
-.article-title {
-  font-size: 2.2rem;
-  margin-top: 2rem;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.keeping-cooking-simple-article-first-text {
-  
-}
-
-.blue-link {
-  color: blue;
-  margin-bottom: 2rem;
-  margin-top: 2em;
-  font-size: 1.7rem;
-  width: 90%;
-  text-align: center;
- 
-  
-  
-}
-
-.image-and-date {
-  text-align: center;
-  margin-left: 0rem;
-}
-
-.images-on-right {
-  width: 100%;
-
-}
-
-.image-on-right-top {
-  width: 60%;
-  border: 1px solid #000000;
-  text-align: center;
-  padding: 3rem;
-  margin: 0 auto;
-  margin-top: 1rem;
-}
-
-
-.aside-heading {
-  font-size: 1.8rem;
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
 
 
 
-/*on upper right*/
-.large-image-lower {
-  border: 1px solid rgb(102, 47, 47);
-  width: 80%;
-}
 
-.aside-text {
-  margin: 0rem;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.8rem;
-  padding-top: 1rem;
-  padding-bottom: 4rem;
-}
 
-.images-on-right-bottom {
-  width: 60%;
-  border: 1px solid black;
-  text-align: center;
-  padding: 3rem;
-  margin: 0 auto;
-  margin-top: 5rem;
-}
+
+
+
+
 
 .footer {
     
@@ -442,140 +301,71 @@ a.link{
   }
 
 
-.nav2{
-  
-}
 
 
 
 
 
-/*
 
-@media screen and (max-width: 1083px){
 
-  .main-part-of-page-title-image{
-    height:30rem;
-  }
-    .site-title {
-      font-size: 3.4rem;
-      
-    }
-    
-    .sub-title {
-      font-size: 2.4rem;
-      
-    }
+
+
+
+
+
+@media screen and (max-width: 696px) {
+  body {
+    background-color: red;
   }
 
-  
-  @media screen and (max-width: 1057px){
-
-    
-      
-    
-      .site-title {
-        font-size: 2.7rem;
-        padding-bottom: .3rem;
-      }
-      
-      .sub-title {
-        font-size: 1.5rem;
-        letter-spacing: .2rem;
-        font-weight: 550;
-      }
-        
-        
-      }
-      
-
-
-
-
-  
-      
-
-
-
-@media screen and (max-width: 996px){
-
-  body{
-    
-  }
-  .site-title {
-    font-size: 2.4rem;
-    
-  }
-  
-  .sub-title {
-    font-size: 1.2rem;
-    font-weight: 800;
-    
-    
-
-  }
-
-  nav ul{
-    margin-left:20rem;
-  }
+  .entire-section {
+    display: flex;
+    justify-content: center;
   }
   
 
-
-
-
-
-
-
-@media screen and (max-width: 880px){
-
-  .top-heading{
-    font-size: 4rem;
-  }
-  .text{
-    font-size:3rem;
-
-  }
-  .main-part-of-page-title-image{
-    height:30rem;
-  }
-
-  nav ul{
-    margin-left:0rem;
-  }
-
-  .aside-text{
-
-    font-size:2rem;
   
+  
+  .top-heading {
+    font-size: 1.6rem;
+    margin-top: .5rem;
   }
 
-}
+  .navbar {
+    width: 100%;
+    text-align: center;
+  }
+
+  ul a {
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+  }
 
 
+  
+
+  
+  .text {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 1.6rem;
+    margin-top: .5rem;
+  }
 
 
-
-
-@media screen and (max-width: 771px){
-
-  .text{
-    font-size:2rem;
+  nav ul {
   }
 
   .site-title {
-    font-size: 2.7rem;
-    
+    font-size: 3rem;
   }
-  
+
   .sub-title {
-    font-size: 1.5rem;
-    
-
-    letter-spacing:.3rem;
+    font-size: 1rem;
   }
 
-}
   
 
 
@@ -583,28 +373,12 @@ a.link{
 
 
 
-  @media screen and (max-width: 711px){
+  
 
-    .site-title {
-      font-size: 2.2rem;
-      padding-bottom: .25rem;
-    }
-    
-    .sub-title {
-      font-size: 1.3rem;
-      color:blue;
-      letter-spacing:.2rem;
-      
-      
-    }
-
-    nav a{
-    
-      font-size: 1.4rem;
-      
-
-    }
-
+  .article-title {
+    font-size: 1.9rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
 
@@ -612,380 +386,56 @@ a.link{
 
 
 
-
-*/
-
-
-
-
-@media screen and (max-width: 701px){
-
-
-  body{
-    background-color: yellow;
-   
+ 
+  footer {
+    background-color: #add8e6;
+    text-align: center;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    font-size: 4.4rem;
+    width: 100%;
+    margin-top: auto;
   }
-}
-/*
-  @media screen and (max-width: 701px){
 
-    body{
-      background-color: yellow;
-     
-    }
-    a:hover {
-      text-decoration: none;
-      color: blue;
-    }
-
-    .aside-text{
-
-      font-size: 2rem;
-    }
-    .site-title{
-
-      font-size: 4rem;
-      padding-top: 2rem;
-      
-    }
-    .sub-title{
-      font-size: 2.2rem;
-      font-weight: 600;
-      
-      
-    }
-
-
-
-
-    .title {
-    
-      display: flex;
+  .banner {
+    display: flex;
     flex-direction: column;
-    padding: 0px 3rem 0px 3rem;
-    margin-top:3rem;
-    margin-bottom: 3rem;
-    
-    }
-
-    .banner{
-      display: flex;
-      flex-direction: column;
-      
-      align-items: center;
-      
-      
-      
-      
-      
-    }
-    .top-heading{
-      font-size: 3rem;
-    }
-  
-
-
-
-    .entire-section {
-      
-      flex-direction: column;
-      align-items: center;
-      
-      
-    }
-    .images-on-right{
-  
-      order: 1;
-      width:70%;
-      margin-bottom: 5rem;
-      
-    }
-    .main-part-of-page-title-image{
-      text-align: center;
-    }
-    
-    .main-part-of-page{
-      order:2;
-    }
-
-
-
-
-    .text{
-      margin-left: 0rem;
-      margin-right: 0rem;
-
-    }
-    nav ul{
-      margin-left: 0rem;
-      font-size: medium;
-      text-align: center;
-      
-    }
-
-
-
-
-    nav a {
-      color: #020202;
-      font-size: 1.7rem;
-    }
-
-    .blue-link{
-      font-size: 2rem;
-    }
-
-    .article-title{
-    font-size: 2.8rem;
-    }
-
-    
+    align-items: center;
   }
+
   
-*/
 
-
-
-
-
-@media screen and (max-width: 466px){
-
-  body{
-  background-color: red;
+  .nav2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: yellowgreen;
   }
+
+  .nav2 li {
+    display: inline;
+  }
+
+  .nav2 a {
+    display: inline-block;
+    padding: 2px;
+  }
+
+  nav {
+    display: none;
+  }
+  .nav2 {
+    display: block;
+  }
+
+.top-heading{
+  font-size: 2.3rem;
+}
+a {
+  font-size: 1.6rem;
 }
 
-
-
-@media screen and (max-width: 619px){
-
-      body{
-      background-color: red;
-      }
-
-      .entire-section{
-        display: flex;
-        justify-content: center;
-      }
-      /**/
-
-      .text {
-        
-      }
-        .top-heading{
-        font-size: 1.6rem;
-        
-      }
-
-
-
-      .navbar{
-        width:100%;
-        text-align: center;
-      }
-
-
-      ul a {
-        display: inline-block;
-        padding: 1rem;
-        margin: 1rem;
-        border: 1px solid black;
-        
-        
-      }
-
-
-      .text{
-        margin-left: 10rem;
-        margin-right: 10rem;
-      }
-
-      
-
-/*
-      .nav{
-        width: 10%;
-       
-        border: #000 solid 3px;
-            text-align: center;
-            background-color: burlywood;
-            
-        }
-
-        .nav ul{
-          
-           
-        }
-
-      .navbar {
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        background-color: brown;
-        width: 100%;
-        
-        
-            margin: 0 auto;
-        }
-
-/*
-
-
-
-      /*
-    nav{
-      
-      background-color: blue;
-      display: flex;
-      flex-direction: row;
-      justify-content:center;
-      
-      border: #000 solid 1px;
-     text-align: center;
-     
-    }
-      .nav{
-     
-       
-       font-size: 1.40rem;
-      
-text-decoration: none;
-display: inline-block;
-
-width: 60px;
-height: 40px;
-background-color: #0F0; 
-    margin: 0 auto;
-   
-     }
-
-     ul{
-      width: 100%;
-      height: 40px;
-      border: #000 solid 1px;
-      text-align: center;
-     }
-
-
-*/
-
-      nav ul{
-
-     
-        
-        
-
-      }
-    
-
-
-      .site-title{
-        font-size: 3rem;
-      }
-    
-      .sub-title{
-        font-size: 1.0rem;
-      }
-    
-      .aside-text{
-        font-size: .7rem;
-      }
-    
-      .main-part-of-page-title-image {
-        height: 140px;
-        width:90%;
-        margin-bottom: 3rem;
-    
-    }
-    
-    .aside-heading{
-    font-size: .9rem;
-    }
-    
-    .article-title{
-      font-size: .9rem;
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-    .underline{
-      width: 3rem;
-    }
-    .footer{
-      font-size: .7rem;
-    }
-      /**/
-
-      .banner {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        
-        
-        
-        
-      }
-      
-
-      .images-on-right{
-        display:none;
-      }
-
-      .nav2{
-          
-        margin:0;
-        padding:0;
-        text-align: center;
-        background-color: yellowgreen;
-      }
-
-      .nav2 li{
-        display: inline;
-      }
-
-      .nav2 a {
-        display: inline-block;
-        padding:5px;
-      }
-
-      nav{
-
-        display: none;
-        
-      }
-      .nav2{
-        display:block
-        
-      }
-
-      
-
-
-    }
-
-    @media screen and (max-width: 386px){
-
-      
-      .text{
-        margin-left: 8rem;
-        margin-right: 8rem;
-      }
-        
-      }
-
-      @media screen and (max-width: 357px){
-
-        .text{
-          font-size: 1rem;
-
-        }
-
-        
-
-      }
-
-
-
+}
     
 
 

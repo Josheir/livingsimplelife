@@ -23,10 +23,13 @@ html {
 
   font-family: sans-serif, Courier, monospace;
   overflow: scroll;
+  height: 100%;
 }
 
 body {
   width: 100%;
+  margin-top: 0rem;
+  margin-bottom: 0rem; 
   
 }
 
@@ -120,8 +123,6 @@ header {
   padding: 0px 3rem 0px 3rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  
-
   margin: 0rem;
   width: 100%;
 }
