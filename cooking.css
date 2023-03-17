@@ -53,6 +53,7 @@ body {
 }
 
 
+
 nav {
   
   font-size: 2rem;
@@ -297,14 +298,18 @@ a.link{
     padding-top: 6rem;
     font-size: 4.4rem;
     width:100%;
-    margin-top: auto;
+    
     
   }
 
 
 
 
+  .spaceAdded{
+    display: none;
 
+
+  }
 
 
 
@@ -316,10 +321,43 @@ a.link{
 
 @media screen and (max-width: 696px) {
   body {
-    background-color: red;
+    background-color: rgb(38, 0, 255);
+    
+    
+  
   }
 
+  .center{
+    
+    min-height: 100%;
+    
+  }
   
+
+    
+  
+/*
+.footer{
+position: absolute;
+text-align: center;
+
+background: #6cf;
+width: 100%;
+bottom: 0px;
+font-size: 4.4rem;
+  }
+*/
+.spaceAdded{
+  display:none
+
+}
+
+
+
+
+  
+
+
 
   .entire-section {
     display: flex;
@@ -392,13 +430,15 @@ a.link{
 
  
   footer {
+    position: absolute;
     background-color: #add8e6;
     text-align: center;
     padding-bottom: 6rem;
     padding-top: 6rem;
     font-size: 4.4rem;
     width: 100%;
-    margin-top: 100vh;
+    bottom: 0;
+    
   }
 
   .banner {
@@ -440,6 +480,8 @@ a {
 }
 
 }
+
+
     
 
 
@@ -495,6 +537,63 @@ top:20px;
   font-size: 3.6rem;
 }
 
+
+
+.spaceAdded{
+
+
 }
 
 
+}
+
+
+
+@media screen and (max-width: 505px) {
+
+  body {
+    background-color: rgb(0, 213, 255);
+    
+    
+  
+  }
+  .spaceAdded {
+    display: inline;
+  }
+
+
+  /*
+  footer {
+    position: absolute;
+    background-color: #add8e6;
+    text-align: center;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    font-size: 4.4rem;
+    width: 100%;
+    bottom: 0;
+    
+  }
+*/
+
+
+
+
+
+
+  .footer {
+    
+   
+   position: static; 
+    background-color: #add8e6;
+    text-align: center;
+    padding-bottom: 6rem;
+    padding-top: 8rem;
+    font-size: 4.4rem;
+    width:100%;
+    bottom: auto;
+    
+    
+  }
+
+}
