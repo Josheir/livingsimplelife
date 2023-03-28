@@ -189,6 +189,7 @@ header {
   border-width: 1px;
 
   margin: 0 auto;
+  margin-top: 4rem;
 }
 
 
@@ -295,7 +296,7 @@ a {
   text-align: center;
   padding: 3rem;
   margin: 0 auto;
-  margin-top: 0rem;
+  margin-top: 4rem;
   
 }
 
@@ -315,7 +316,7 @@ a {
 .aside-text {
   margin: 0rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: 100;
   font-size: 1.8rem;
   padding-top: 1rem;
   padding-bottom: 4rem;
@@ -637,7 +638,7 @@ a {
 
 @media screen and (max-width: 696px) {
   body {
-    background-color: red;
+    background-color: yellow;
   }
 
   .entire-section {
@@ -705,7 +706,10 @@ a {
     height: 230px;
     width: 75%;
     margin-bottom: 1rem;
+    
   }
+
+  
 
   .large-image{
 
@@ -723,8 +727,11 @@ width: 50%;
 
   .article-title {
     font-size: 1.9rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+
+
   }
   .underline {
     width: 3rem;
@@ -736,13 +743,14 @@ width: 50%;
     padding-top: 3rem;
     font-size: 4.4rem;
     width: 100%;
-    margin-top: auto;
+    margin-top: 0;
   }
 
   .banner {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   .images-on-right {
