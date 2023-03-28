@@ -12,14 +12,15 @@
 
 * {
   margin: 0px;
-
   font-size: 6px;
+  
 }
 
 html {
   font-size: 6px;
   margin: auto;
   max-width: 1000px;
+  min-width: 242px;
 
   font-family: sans-serif, Courier, monospace;
   overflow: scroll;

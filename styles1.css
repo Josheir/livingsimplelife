@@ -19,7 +19,7 @@ html {
   font-size: 6px;
   margin: auto;
   max-width: 1000px;
-
+  min-width: 242px;
   overflow: scroll;
   font-family: sans-serif, Courier, monospace;
   height: 100%;
