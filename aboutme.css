@@ -173,7 +173,7 @@ span {
   border-style: solid;
   border-width: 1px;
   margin: 0 auto;
-  margin-bottom: 9rem;
+  
 }
 
 .main-part-of-page-first-date {
@@ -237,7 +237,7 @@ a{
 
 .article-title {
   font-size: 2.2rem;
-  margin-top: 6.8rem;
+  margin-top: 5rem;
   text-align: center;
   margin-bottom: 5rem;
 }
@@ -267,7 +267,7 @@ a{
   text-align: center;
   padding: 3rem;
   margin: 0 auto;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .aside-heading {
@@ -317,6 +317,7 @@ a{
   width: 100%;
   margin-bottom: 2rem;
   text-align: center;
+  margin-top: 2rem;
 }
 
 
