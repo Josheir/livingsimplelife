@@ -331,8 +331,8 @@ a {
 .footer {
   background-color: #add8e6;
   text-align: center;
-  padding-bottom: 6rem;
-  padding-top: 6rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
   font-size: 4.4rem;
   width: 100%;
   margin-top: auto;
@@ -730,8 +730,8 @@ width: 50%;
   footer {
     background-color: #add8e6;
     text-align: center;
-    padding-bottom: 6rem;
-    padding-top: 6rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
     font-size: 4.4rem;
     width: 100%;
     margin-top: auto;
