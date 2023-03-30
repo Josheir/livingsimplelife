@@ -65,7 +65,6 @@ nav a {
   display: none;
 }
 
-/*//////////////*/
 
 p {
 }
@@ -96,25 +95,7 @@ a:active {
 nav li {
 }
 
-/*
-.last-link {
-  margin-right: 8.0rem;
-}
-*/
 
-/*
-.first-link{
-
-  margin-left:0rem;
-  padding-left:0rem;
-}
-/*
-
-
-
-
-
-////////*/
 
 header {
   width: 100%;
@@ -156,12 +137,7 @@ header {
   letter-spacing: 0.3rem;
 }
 
-/*
-  border-bottom-style: solid;
-*/
 
-
-/*/////////*/
 .most-outer {
   width: 100%;
   margin-left: 0rem;
@@ -309,7 +285,7 @@ a {
 
 /*on upper right*/
 .large-image-lower {
-  border: 1px solid rgb(102, 47, 47);
+  border: 1px solid black;
   width: 80%;
 }
 
@@ -346,294 +322,13 @@ a {
 
 
 
-/*
 
-@media screen and (max-width: 1083px){
-
-  .main-part-of-page-title-image{
-    height:30rem;
-  }
-    .site-title {
-      font-size: 3.4rem;
-      
-    }
-    
-    .sub-title {
-      font-size: 2.4rem;
-      
-    }
-  }
-
-  
-  @media screen and (max-width: 1057px){
-
-    
-      
-    
-      .site-title {
-        font-size: 2.7rem;
-        padding-bottom: .3rem;
-      }
-      
-      .sub-title {
-        font-size: 1.5rem;
-        letter-spacing: .2rem;
-        font-weight: 550;
-      }
-        
-        
-      }
-      
-
-
-
-
-  
-      
-
-
-
-@media screen and (max-width: 996px){
-
-  body{
-    
-  }
-  .site-title {
-    font-size: 2.4rem;
-    
-  }
-  
-  .sub-title {
-    font-size: 1.2rem;
-    font-weight: 800;
-    
-    
-
-  }
-
-  nav ul{
-    margin-left:20rem;
-  }
-  }
-  
-
-
-
-
-
-
-
-@media screen and (max-width: 880px){
-
-  .top-heading{
-    font-size: 4rem;
-  }
-  .text{
-    font-size:3rem;
-
-  }
-  .main-part-of-page-title-image{
-    height:30rem;
-  }
-
-  nav ul{
-    margin-left:0rem;
-  }
-
-  .aside-text{
-
-    font-size:2rem;
-  
-  }
-
-}
-
-
-
-
-
-
-@media screen and (max-width: 771px){
-
-  .text{
-    font-size:2rem;
-  }
-
-  .site-title {
-    font-size: 2.7rem;
-    
-  }
-  
-  .sub-title {
-    font-size: 1.5rem;
-    
-
-    letter-spacing:.3rem;
-  }
-
-}
-  
-
-
-
-
-
-
-  @media screen and (max-width: 711px){
-
-    .site-title {
-      font-size: 2.2rem;
-      padding-bottom: .25rem;
-    }
-    
-    .sub-title {
-      font-size: 1.3rem;
-      color:blue;
-      letter-spacing:.2rem;
-      
-      
-    }
-
-    nav a{
-    
-      font-size: 1.4rem;
-      
-
-    }
-
-  }
-
-
-
-
-
-
-
-*/
 
 @media screen and (max-width: 1701px) {
   body {
     background-color: yellow;
   }
 }
-/*
-  @media screen and (max-width: 701px){
-
-    body{
-      background-color: yellow;
-     
-    }
-    a:hover {
-      text-decoration: none;
-      color: blue;
-    }
-
-    .aside-text{
-
-      font-size: 2rem;
-    }
-    .site-title{
-
-      font-size: 4rem;
-      padding-top: 2rem;
-      
-    }
-    .sub-title{
-      font-size: 2.2rem;
-      font-weight: 600;
-      
-      
-    }
-
-
-
-
-    .title {
-    
-      display: flex;
-    flex-direction: column;
-    padding: 0px 3rem 0px 3rem;
-    margin-top:3rem;
-    margin-bottom: 3rem;
-    
-    }
-
-    .banner{
-      display: flex;
-      flex-direction: column;
-      
-      align-items: center;
-      
-      
-      
-      
-      
-    }
-    .top-heading{
-      font-size: 3rem;
-    }
-  
-
-
-
-    .entire-section {
-      
-      flex-direction: column;
-      align-items: center;
-      
-      
-    }
-    .images-on-right{
-  
-      order: 1;
-      width:70%;
-      margin-bottom: 5rem;
-      
-    }
-    .main-part-of-page-title-image{
-      text-align: center;
-    }
-    
-    .main-part-of-page{
-      order:2;
-    }
-
-
-
-
-    .text{
-      margin-left: 0rem;
-      margin-right: 0rem;
-
-    }
-    nav ul{
-      margin-left: 0rem;
-      font-size: medium;
-      text-align: center;
-      
-    }
-
-
-
-
-    nav a {
-      color: #020202;
-      font-size: 1.7rem;
-    }
-
-    .blue-link{
-      font-size: 2rem;
-    }
-
-    .article-title{
-    font-size: 2.8rem;
-    }
-
-    
-  }
-  
-*/
-
 
 
 @media screen and (max-width: 696px) {
@@ -666,10 +361,6 @@ a {
   }
 
 
-
-
-
-  
   ul a {
     display: inline-block;
     padding: 1rem;
@@ -831,7 +522,7 @@ width: 50%;
   .text {
     font-size: 1rem;
   }
-  
+
     a{
       font-size: 1rem;
     }
