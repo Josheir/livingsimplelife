@@ -656,7 +656,7 @@ a {
   }
   
   .top-heading {
-    font-size: 1.6rem;
+    font-size: 2.3rem;
     margin-top: .5rem;
   }
 
@@ -665,11 +665,17 @@ a {
     text-align: center;
   }
 
+
+
+
+
+  
   ul a {
     display: inline-block;
     padding: 1rem;
     margin: 1rem;
     border: 1px solid black;
+    color:blue;
   }
 
 
@@ -684,6 +690,10 @@ a {
     margin-right: 20rem;
     font-size: 1.6rem;
     margin-top: .5rem;
+  }
+
+  a{
+      font-size: 1.6rem;
   }
 
 
@@ -717,8 +727,16 @@ width: 50%;
   }
 
 
-  .blue-link{
+  
+
+
+  
+
+  .blue-link2{
+    background-color: blue;
+    margin-bottom: 0%;
     font-size: 1.3rem;
+    text-align: center;
   }
 
   .aside-heading {
@@ -780,9 +798,10 @@ width: 50%;
     display: block;
   }
 
-.top-heading{
-  font-size: 2.3rem;
-}
+  .nav2 a {
+    font-size: 0.9rem;
+  }
+
 
 
 }
@@ -812,6 +831,13 @@ width: 50%;
   .text {
     font-size: 1rem;
   }
+  
+    a{
+      font-size: 1rem;
+    }
+  
+    
+
 }
 
 @media print {
