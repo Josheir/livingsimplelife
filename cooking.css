@@ -35,6 +35,8 @@ html {
   max-width: 1000px;
   min-width: 300px;
   overflow: scroll;
+  overflow-x: hidden;
+  
    
   
   

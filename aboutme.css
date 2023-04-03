@@ -23,7 +23,7 @@ html {
   min-width: 242px;
 
   font-family: sans-serif, Courier, monospace;
-  overflow: hidden;
+  
   height: 100%;
 }
 
@@ -31,7 +31,8 @@ body {
   width: 100%;
   margin-top: 0rem;
   margin-bottom: 0rem; 
-  
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 nav li {

@@ -23,7 +23,8 @@ html {
   overflow: scroll;
   font-family: sans-serif, Courier, monospace;
   height: 100%;
-  overflow: hidden;
+  overflow: scroll;
+  overflow-x: hidden;
  
 }
 
