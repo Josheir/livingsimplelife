@@ -110,7 +110,7 @@ header {
   width: 100%;
   padding-bottom: 5rem;
   padding-top: 2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .title {
@@ -171,12 +171,13 @@ header {
 
 
 .main-part-of-page-first-date {
-  margin-bottom: rem;
+
   color: blue;
 
   font-size: 1.5rem;
-  margin-top: 0rem;
+
   text-align: center;
+  margin-top: 1rem;
 }
 
 .main-part-of-page-top {
@@ -252,7 +253,7 @@ a {
   color: blue;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   width: 100%;
   text-align: center;
 }
@@ -344,6 +345,8 @@ a {
 
   .main-part-of-page-first-date{
     font-size: 1.3rem;
+    margin-top: 1rem;
+    
   }
 
   .date{
@@ -381,6 +384,7 @@ a {
     margin-right: 20rem;
     font-size: 1.6rem;
     margin-top: .5rem;
+    
   }
 
   a{
@@ -497,11 +501,20 @@ width: 50%;
 
 }
 
+@media screen and (max-width: 378px) {
+
+  .main-part-of-page-title-image {
+    height: 160px;
+  }
+}
+
+
 @media screen and (max-width: 319px) {
 
   .nav2 a {
     padding: 2px;
   }
+  
 
 
 
