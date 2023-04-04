@@ -35,13 +35,12 @@ html {
   max-width: 1000px;
   min-width: 300px;
   overflow: scroll;
-  overflow-x: hidden;
+ 
   
    
   
   
-  /*font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'
-  */
+  
   font-family: sans-serif, Courier, monospace;
 
 }
@@ -160,8 +159,7 @@ header {
   display: flex;
   flex-direction: column;
   padding: 0px 3rem 0px 3rem;
-  margin-top:3rem;
-  margin-bottom: 3rem;
+  
   background-color: #707070;
   width:100%;
   margin: 0rem;
@@ -177,26 +175,12 @@ header {
 .sub-title {
   font-size: 1rem;
   padding-bottom: 2.6rem;
-  letter-spacing:.1rem;
+  
   color: blue;
   letter-spacing: .3rem;
   
 }
 
-
-.most-outer {
-  width: 100%;
-  margin-left: 0rem;
- 
-}
-
-.entire-section {
-  
-  
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  }
 
  
   .main-part-of-page {
@@ -205,6 +189,9 @@ header {
 
   
 }
+
+
+
 
 .main-part-of-page-title-image {
   width: 68%;
@@ -219,19 +206,7 @@ header {
   margin: 0 auto;
 }
 
-.main-part-of-page-first-date {
-  margin-bottom: 2.2rem;
-  color: blue;
- 
-  font-size: 1.5rem;
-  margin-top: 0rem;
-  text-align: center;
-}
 
-
-.main-part-of-page-top {
-  width: 100%;
-}
 
 
 
@@ -262,6 +237,9 @@ header {
 }
 
 
+
+
+
 a {
   font-size: 3rem;
 }
@@ -275,7 +253,7 @@ a.link{
 
 
 .three-articles {
-  margin-left: 0rem;
+ 
   width: 100%;
 }
 
@@ -309,56 +287,18 @@ a.link{
 
 
 
-  .spaceAdded{
-    display: none;
-
-
-  }
-
-
-
-
-
-
 
 
 
 @media screen and (max-width: 597px) {
   body {
     background-color: rgb(255, 0, 8);
-    overflow: hidden;
+   
     
   
   }
 
-  .banner{
-
-    margin-bottom: 0rem;
-  }
-
-  .center{
-    
-    min-height: 100%;
-    
-  }
  
-.spaceAdded{
-  display:none
-
-}
-
-
-
-
-  
-
-  .entire-section {
-    display: flex;
-    justify-content: center;
-  }
-  
-
-  
   
   .top-heading {
     font-size: 1.6rem;
@@ -391,9 +331,6 @@ a.link{
   }
 
 
-  nav ul {
-  }
-
   .site-title {
     font-size: 3rem;
   }
@@ -404,22 +341,11 @@ a.link{
 
   
 
-
-
-
-
-
-  
-
   .article-title {
     font-size: 1.9rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
-
-
-
-
 
 
  
@@ -442,6 +368,8 @@ a.link{
 
   
 
+
+  
   .nav2 {
     margin: 0;
     padding: 0;
@@ -505,10 +433,7 @@ a {
   margin-bottom:0rem;
   
   }
-  .banner{
-
-    
-  }
+  
 
   .top-heading{
   margin-top: 1rem;
@@ -532,15 +457,6 @@ top:20px;
 
 
 
-.spaceAdded{
-
-
-}
-
-
-}
-
-
 
 @media screen and (max-width: 505px) {
 
@@ -556,27 +472,7 @@ top:20px;
     margin-top:3rem;
   }
 
-  .banner{
-    margin-bottom: 0rem;
-  }
-
-  /*
-  footer {
-    position: absolute;
-    background-color: #add8e6;
-    text-align: center;
-    padding-bottom: 6rem;
-    padding-top: 6rem;
-    font-size: 4.4rem;
-    width: 100%;
-    bottom: 0;
-    
-  }
-*/
-
-
-
-
+  
 
 
   .footer {
@@ -596,6 +492,4 @@ top:20px;
 
   
 }
-  @media screen and (max-width: 212px) {
-
-}
+  
