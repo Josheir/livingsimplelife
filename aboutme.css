@@ -23,16 +23,14 @@ html {
   min-width: 242px;
 
   font-family: sans-serif, Courier, monospace;
-  
+  overflow: scroll;
   height: 100%;
 }
 
 body {
   width: 100%;
-  margin-top: 0rem;
-  margin-bottom: 0rem; 
-  overflow: scroll;
-  overflow-x: hidden;
+  
+  
 }
 
 nav li {
@@ -54,7 +52,7 @@ nav ul {
 
   
   justify-content: center;
-  margin-top: 0;
+  
 }
 
 nav a {
@@ -137,7 +135,7 @@ header {
 .sub-title {
   font-size: 1rem;
   padding-bottom: 2.6rem;
-  letter-spacing: 0.1rem;
+ 
   color: blue;
   letter-spacing: 0.3rem;
 }
@@ -145,14 +143,11 @@ header {
 a {
   text-decoration: underline;
 }
-span {
-  border-bottom-style: solid;
-  font-size: 1.4rem;
-}
 
-.most-outer {
-  width: 100%;
-}
+
+
+
+
 
 .entire-section {
   display: flex;
@@ -160,9 +155,9 @@ span {
   width: 100%;
 }
 
-.main-part-of-page {
-  width: 100%;
-}
+
+
+
 
 .main-part-of-page-title-image {
   width: 48%;
@@ -178,6 +173,7 @@ span {
   
 }
 
+/*
 .main-part-of-page-first-date {
   margin-bottom: 9rem;
   color: blue;
@@ -185,10 +181,9 @@ span {
   font-size: 3.6rem;
   margin-top: 1rem;
 }
+*/
 
-.main-part-of-page-top {
-  width: 100%;
-}
+
 
 .text {
   font-size: 2rem;
@@ -218,6 +213,9 @@ a{
   
   width: 100%;
 }
+
+
+
 
 .keep-cooking-simple-precursor {
   text-align: center;
@@ -254,6 +252,7 @@ a{
   margin-left: 0rem;
 }
 
+/*below now*/
 .images-on-right {
   width: 60%;
   margin: 0 auto;
@@ -279,20 +278,25 @@ a{
   margin-bottom: 2rem;
 }
 
-/*on upper right*/
+/*below*/
 .large-image-lower {
-  border: 1px solid rgb(102, 47, 47);
+  border: 1px solid black;
   width: 80%;
 }
 
+
+
+
+
 .aside-text {
-  margin: 0rem;
+  
   text-align: center;
   font-weight: bold;
   font-size: 1.8rem;
-  padding-top: 1rem;
-  padding-bottom: 4rem;
+  
 }
+
+
 
 .images-on-right-bottom {
   width: 60%;
@@ -312,6 +316,8 @@ a{
   width: 100%;
   margin-top: auto;
 }
+
+
 
 .top-heading {
   color: rgb(76, 0, 255);
@@ -350,6 +356,8 @@ a{
   .title {
     text-align: center;
   }
+
+  
   .banner {
     display: flex;
     flex-direction: column;
@@ -371,6 +379,8 @@ a{
    
   }
 
+
+  
   .entire-section {
     display: flex;
     flex-direction: column;
@@ -489,10 +499,7 @@ a{
   }
   
 
-  .third-text{
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-  }
+  
 
   .top-heading {
     font-size: 2.3rem;
@@ -514,6 +521,8 @@ a{
     font-size: 0.7rem;
   }
 
+
+  
   .main-part-of-page-title-image {
     height: 140px;
     width: 70%;
@@ -532,8 +541,8 @@ a{
 
   .images-on-right{
 
-    margin-top: 5rem;
-    padding-top: 0%;
+    
+    
   }
   
   footer {

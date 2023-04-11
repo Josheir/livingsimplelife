@@ -20,18 +20,17 @@ html {
   margin: auto;
   max-width: 1000px;
   min-width: 242px;
-  overflow: scroll;
+  
   font-family: sans-serif, Courier, monospace;
   height: 100%;
   overflow: scroll;
-  overflow-x: hidden;
+  
  
 }
 
 body {
   width: 100%;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
+ 
   
 }
 
@@ -48,14 +47,14 @@ nav ul {
   background-color: yellow;
   justify-content: center;
 
-  text-align: center;
-  margin-top: 0%;
+ 
+  
 }
 
 nav a {
   text-decoration: none;
   color: blue;
-  font-weight: 200;
+  
   font-size: 1.4rem;
   margin-left: 2rem;
 }
@@ -99,6 +98,8 @@ nav li {
 
 
 
+
+
 header {
   width: 100%;
   text-align: center;
@@ -119,8 +120,7 @@ header {
   display: flex;
   flex-direction: column;
   
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  
   background-color: #707070;
   width: 100%;
   margin: 0rem;
@@ -134,27 +134,26 @@ header {
 .sub-title {
   font-size: 1rem;
   padding-bottom: 2.6rem;
-  letter-spacing: 0.1rem;
+  
   color: blue;
   letter-spacing: 0.3rem;
 }
 
 
-.most-outer {
-  width: 100%;
-  margin-left: 0rem;
-}
 
 .entire-section {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin-right: 2rem;
+ 
 }
 
 .main-part-of-page {
   width: 100%;
 }
+
+
+
 
 .main-part-of-page-title-image {
   width: 68%;
@@ -182,9 +181,8 @@ header {
   margin-top: 1rem;
 }
 
-.main-part-of-page-top {
-  width: 100%;
-}
+
+
 
 .top-heading {
   font-size: 3rem;
@@ -220,14 +218,16 @@ a {
 }
 
 .three-articles {
-  margin-left: 0rem;
+  
   width: 100%;
 }
+
 
 .keep-cooking-simple-precursor {
   text-align: center;
   margin-top: 3rem;
 }
+
 
 .large-image {
   border: 1px solid;
@@ -259,6 +259,8 @@ a {
   width: 100%;
   text-align: center;
 }
+
+
 
 .image-and-date {
   text-align: center;
@@ -295,10 +297,12 @@ a {
 .aside-text {
   margin: 0rem;
   text-align: center;
-  font-weight: 100;
+  
   font-size: 1.8rem;
   padding-top: 1rem;
   padding-bottom: 4rem;
+  
+ 
 }
 
 .images-on-right-bottom {
@@ -308,7 +312,13 @@ a {
   padding: 3rem;
   margin: 0 auto;
   margin-top: 5rem;
+
+  
+ 
+  
 }
+
+
 
 .footer {
   background-color: #add8e6;
@@ -317,7 +327,7 @@ a {
   padding-top: 3rem;
   font-size: 4.4rem;
   width: 100%;
-  margin-top: auto;
+  
 }
 
 .nav2 {
@@ -327,14 +337,10 @@ a {
 
 
 
-@media screen and (max-width: 1701px) {
-  body {
-    background-color: yellow;
-  }
-}
 
 
-@media screen and (max-width: 696px) {
+
+  @media screen and (max-width: 696px) {
   body {
     background-color: yellow;
   }
@@ -343,7 +349,8 @@ a {
     display: flex;
     justify-content: center;
   }
-  /**/
+  
+  
 
   .main-part-of-page-first-date{
     font-size: 1.3rem;
@@ -368,7 +375,7 @@ a {
 
   ul a {
     display: inline-block;
-    padding: 1rem;
+    
     margin: 1rem;
     border: 1px solid black;
     color:blue;
@@ -385,7 +392,7 @@ a {
     margin-left: 21rem;
     margin-right: 21rem;
     font-size: 1.6rem;
-    margin-top: .5rem;
+   
     
   }
 
@@ -424,17 +431,6 @@ width: 50%;
   }
 
 
-  
-
-
-  
-
-  .blue-link2{
-    background-color: blue;
-    margin-bottom: 0%;
-    font-size: 1.3rem;
-    text-align: center;
-  }
 
   .aside-heading {
     font-size: 0.9rem;
@@ -448,9 +444,10 @@ width: 50%;
 
 
   }
-  .underline {
-    width: 3rem;
-  }
+  
+
+
+  
   footer {
     background-color: #add8e6;
     text-align: center;
@@ -520,40 +517,8 @@ width: 50%;
 }
 
 
-@media screen and (max-width: 319px) {
-
-  .nav2 a {
-    padding: 2px;
-  }
-  
 
 
-
-}
-
-
-
-
-
-@media screen and (max-width: 386px) {
-  .text {
-    margin-left: 8rem;
-    margin-right: 8rem;
-  }
-}
-
-@media screen and (max-width: 357px) {
-  .text {
-    font-size: 1.6rem;
-  }
-
-    a{
-      font-size: 1rem;
-    }
-  
-    
-
-}
 
 @media print {
   .images-on-right {
