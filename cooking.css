@@ -141,7 +141,7 @@ header {
   flex-direction: row;
   width: 100%;
   padding-bottom:2rem;
-  padding-top: 2rem;
+  padding-top: 0rem;
   margin-bottom: 4rem;
   background-color: green;
   
