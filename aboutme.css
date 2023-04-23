@@ -80,7 +80,7 @@ h5 {
 
 
 a{
-  font-size: 2rem;
+  font-size: 20rem;
 }
 
 a:link {
@@ -97,7 +97,7 @@ a:active {
 }
 
 nav {
-  background-color: red;
+  
   width: 100%;
 }
 
@@ -190,12 +190,12 @@ a {
 .text {
   font-size: 2rem;
   
-  margin-left: 40rem;
-  margin-right: 40rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 a{
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 
@@ -256,7 +256,7 @@ a{
 
 /*below now*/
 .images-on-right {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -295,6 +295,9 @@ a{
   text-align: center;
   font-weight: bold;
   font-size: 1.8rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  
   
 }
 
@@ -316,7 +319,7 @@ a{
   padding-top: 3rem;
   font-size: 4.4rem;
   width: 100%;
-  margin-top: auto;
+  margin-top: 2rem;
 }
 
 
@@ -346,7 +349,11 @@ a{
   }
 
   .aside-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+
+
   }
   .site-title {
     font-size: 3rem;
@@ -375,9 +382,9 @@ a{
 
 
   .top-heading {
-    font-size: 2.5rem;
-    margin-top:2rem;
-    margin-bottom:2rem;
+    font-size: 2.3rem;
+    margin-top:3rem;
+    margin-bottom:3rem;
    
   }
 
@@ -402,8 +409,8 @@ a{
   }
 
   .text {
-    margin-left: 25rem;
-    margin-right: 25rem;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 1.6rem;
   }
   nav ul {
@@ -467,14 +474,25 @@ a{
     color: blue
     
   }
+
+  footer {
+    background-color: #add8e6;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    font-size: 4.4rem;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  
 }
 
 
 @media screen and (max-width: 609px) {
 
 .text{
-  margin-left: 20rem;
-  margin-right: 20rem;
+  margin-left: 10%;
+  margin-right: 10%;
   
 }
 
@@ -493,11 +511,11 @@ a{
   }
   .text {
     font-size: 1.6rem;
-    margin-left: 7rem;
-    margin-right: 7rem;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   a{
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
   
 
@@ -520,7 +538,9 @@ a{
   }
 
   .aside-text {
-    font-size: 0.7rem;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+  padding-bottom: 4rem;
   }
 
 
@@ -532,13 +552,16 @@ a{
   }
 
   .aside-heading {
-    font-size: 0.9rem;
+    font-size: 1.8rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
   }
 
   .article-title {
-    font-size: 1.9rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .images-on-right{
@@ -588,7 +611,8 @@ a{
 
   .top-heading {
     margin-bottom: 6rem;
-    margin-top: 6rem;
+    padding-top: 8rem;
+    margin-top: 8rem;
   }
 
   
@@ -606,5 +630,10 @@ a{
     top: 20px;
 
     font-size: 3.6rem;
+  }
+  .text{
+    margin-left: 5rem;
+    margin-right: 5rem ;
+    font-size: 3rem;
   }
 }

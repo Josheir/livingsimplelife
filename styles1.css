@@ -195,8 +195,8 @@ header {
 .text {
   font-size: 2rem;
  margin-bottom: 2rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 a {
@@ -253,7 +253,7 @@ a {
 
 .blue-link {
   color: blue;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-top: 2rem;
   font-size: 1.3rem;
   width: 100%;
@@ -312,6 +312,7 @@ a {
   padding: 3rem;
   margin: 0 auto;
   margin-top: 5rem;
+  margin-bottom: 0rem;
 
   
  
@@ -327,6 +328,7 @@ a {
   padding-top: 3rem;
   font-size: 4.4rem;
   width: 100%;
+  margin-top: 4rem;
   
 }
 
@@ -347,6 +349,7 @@ a {
 
   .entire-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
   
@@ -364,7 +367,8 @@ a {
   
   .top-heading {
     font-size: 2.3rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   .navbar {
@@ -389,8 +393,8 @@ a {
     text-decoration: none;
   }
   .text {
-    margin-left: 21rem;
-    margin-right: 21rem;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 1.6rem;
    
     
@@ -413,7 +417,10 @@ a {
   }
 
   .aside-text {
-    font-size: 0.7rem;
+    
+    font-size: 1.8rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
   }
 
   .main-part-of-page-title-image {
@@ -433,11 +440,15 @@ width: 50%;
 
 
   .aside-heading {
-    font-size: 0.9rem;
+    
+    font-size: 1.8rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
   }
 
   .article-title {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
 
@@ -448,15 +459,7 @@ width: 50%;
 
 
   
-  footer {
-    background-color: #add8e6;
-    text-align: center;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-    font-size: 4.4rem;
-    width: 100%;
-    margin-top: 0;
-  }
+  
 
   .banner {
     display: flex;
@@ -467,7 +470,7 @@ width: 50%;
   }
 
   .images-on-right {
-    display: none;
+    margin-bottom:2rem;
   }
 
   .nav2 {
@@ -504,8 +507,8 @@ width: 50%;
 @media screen and (max-width: 410px) {
 
   .text{
-  margin-left: 9rem;
-  margin-right: 9rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 }
 
@@ -570,6 +573,10 @@ width: 50%;
     top: 20px;
 
     font-size: 3.6rem;
+  }
+
+  .text{
+    font-size: 3rem;
   }
 }
 
