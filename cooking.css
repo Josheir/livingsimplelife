@@ -55,7 +55,7 @@ nav ul {
   justify-content:center;
   
   text-align: center;
-  margin-top: 0%;
+ 
   
  
 }
@@ -81,20 +81,13 @@ nav a {
 display: none;
 }
 
-/*//////////////*/
 
-p {
-}
 
 h1 {
   color: blue;
 }
 
-h4 {
-}
 
-h5 {
-}
 
 a:link {
   text-decoration: none;
@@ -124,7 +117,7 @@ header {
   flex-direction: row;
   width: 100%;
   padding-bottom:1rem;
-  padding-top: 0rem;
+  
   margin-bottom: 4rem;
   
   
@@ -145,7 +138,7 @@ header {
   
   
   width:100%;
-  margin: 0rem;
+  
   
 }
 
@@ -176,18 +169,7 @@ header {
 
 
 
-.main-part-of-page-title-image {
-  width: 68%;
-  height: 38rem;
-  background-image: url("./images/work.jpg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-style: solid;
-  border-width: 1px;
-  
-  margin: 0 auto;
-}
+
 
 
 
@@ -200,7 +182,7 @@ header {
   width: 100%;
   
   text-align: center;
- margin-top: 3rem; 
+  margin-top: 3rem; 
   
 
   
@@ -351,7 +333,7 @@ a.link{
 
   
   .nav2 {
-    margin: 0;
+   
     padding: 0;
     text-align: center;
     background-color: yellowgreen;
@@ -444,7 +426,7 @@ top:20px;
   font-size: 3.6rem;
 }
 
-
+}
 
 
 @media screen and (max-width: 505px) {
@@ -481,4 +463,3 @@ top:20px;
 
   
 }
-  
