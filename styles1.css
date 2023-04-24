@@ -26,7 +26,7 @@ body {
 
 nav {
   font-size: 2rem;
-  background-color: red;
+ 
   width: 100%;
 }
 
@@ -34,7 +34,7 @@ nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  background-color: yellow;
+  
   justify-content: center;
 
  
@@ -111,7 +111,7 @@ header {
   flex-direction: column;
   padding: 0px 3rem 0px 3rem;
   
-  background-color: #707070;
+  
   width: 100%;
   
 }
@@ -156,7 +156,7 @@ header {
   border-width: 1px;
 
   margin: 0 auto;
-  margin-top: 4rem;
+  
 }
 
 
@@ -271,7 +271,7 @@ a {
   text-align: center;
   padding: 3rem;
   margin: 0 auto;
-  margin-top: 4rem;
+  
   
 }
 
@@ -331,7 +331,7 @@ a {
 
   @media screen and (max-width: 696px) {
   body {
-    background-color: yellow;
+    
   }
 
   .entire-section {
@@ -462,7 +462,7 @@ width: 50%;
     
     padding: 0;
     text-align: center;
-    background-color: yellowgreen;
+   
   }
 
   .nav2 li {

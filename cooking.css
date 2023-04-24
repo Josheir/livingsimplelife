@@ -258,7 +258,7 @@ a.link{
 
 @media screen and (max-width: 597px) {
   body {
-    background-color: rgb(255, 0, 8);
+    
    
     
   
@@ -336,7 +336,7 @@ a.link{
    
     padding: 0;
     text-align: center;
-    background-color: yellowgreen;
+    
   }
 
   .nav2 li {
@@ -358,7 +358,7 @@ a.link{
 
 .top-heading{
   font-size: 2.2rem;
-  margin-top: 3rem;
+ 
   margin-bottom: 3rem;
 }
 a {
@@ -438,10 +438,7 @@ top:20px;
   
   }
   
-  .top-heading{
-
-    margin-top:3rem;
-  }
+  
 
   
 
