@@ -59,7 +59,7 @@ body {
 nav {
   
   font-size: 2rem;
-  background-color: red;
+  
   width: 100%;
 }
 
@@ -68,7 +68,7 @@ nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  background-color: yellow;
+  
   justify-content:center;
   
   text-align: center;
@@ -143,7 +143,7 @@ header {
   padding-bottom:1rem;
   padding-top: 0rem;
   margin-bottom: 4rem;
-  background-color: green;
+  
   
   
   
@@ -160,7 +160,7 @@ header {
   flex-direction: column;
   padding: 0px 3rem 0px 3rem;
   
-  background-color: #707070;
+  
   width:100%;
   margin: 0rem;
   
@@ -301,12 +301,7 @@ a.link{
 
  
   
-  .top-heading {
-    font-size: 1.6rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    
-  }
+  
 
   .navbar {
     width: 100%;
@@ -397,7 +392,7 @@ a.link{
   }
 
 .top-heading{
-  font-size: 2.2-rem;
+  font-size: 2.2rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
