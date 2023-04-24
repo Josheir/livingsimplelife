@@ -19,7 +19,7 @@ html {
   font-size: 6px;
   margin: auto;
   max-width: 1000px;
-  min-width: 242px;
+  min-width: 240px;
   
   font-family: sans-serif, Courier, monospace;
   height: 100%;
@@ -187,9 +187,9 @@ header {
 .top-heading {
   font-size: 3rem;
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .text {
@@ -253,13 +253,25 @@ a {
 
 .blue-link {
   color: blue;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  font-size: 1.3rem;
+ 
   width: 100%;
-  text-align: center;
+  font-size: 1.3rem;
+ 
 }
 
+.center{
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  
+}
+
+.last-center{
+  text-align: center;
+ 
+  margin-top: 2rem;
+  
+}
 
 
 .image-and-date {
@@ -328,7 +340,7 @@ a {
   padding-top: 3rem;
   font-size: 4.4rem;
   width: 100%;
-  margin-top: 4rem;
+  margin-top: 7rem;
   
 }
 
@@ -366,7 +378,7 @@ a {
   }
   
   .top-heading {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
