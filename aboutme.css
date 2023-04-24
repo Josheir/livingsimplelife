@@ -1,14 +1,4 @@
-/*-
---- 01 TYPOGRAPHY SYSTEM
 
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
-
-/*//////desktop////////////////*/
 
 * {
   margin: 0px;
@@ -114,7 +104,7 @@ header {
   flex-direction: row;
   width: 100%;
   padding-bottom: 1rem;
-  padding-top: 0rem;
+  
   margin-bottom: 5rem;
   
 }
@@ -142,9 +132,6 @@ header {
   letter-spacing: 0.3rem;
 }
 
-a {
-  text-decoration: underline;
-}
 
 
 
@@ -161,7 +148,7 @@ a {
 
 
 
-.main-part-of-page-title-image {
+.main-part-of-page-title-image-face {
   width: 48%;
   height: 38rem;
   background-image: url("./images/about-me.jpg");
@@ -175,21 +162,12 @@ a {
   
 }
 
-/*
-.main-part-of-page-first-date {
-  margin-bottom: 9rem;
-  color: blue;
-  margin-left: 10rem;
-  font-size: 3.6rem;
-  margin-top: 1rem;
-}
-*/
+
 
 
 
 .text {
   font-size: 2rem;
-  
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -242,9 +220,6 @@ a{
   margin-top: 5rem;
   text-align: center;
   margin-bottom: 5rem;
-}
-
-.keeping-cooking-simple-article-first-text {
 }
 
 
@@ -374,7 +349,7 @@ a{
     align-items: center;
     padding-bottom: 1rem;
    
-    padding-top: 0rem;
+    
     background-color: green;
   }
 
@@ -402,12 +377,6 @@ a{
     
   }
 
-
-
-  .main-part-of-page {
-    
-  }
-
   .text {
     margin-left: 10%;
     margin-right: 10%;
@@ -421,13 +390,7 @@ a{
     font-size: 1.7rem;
   }
 
-  /*
-  .underline {
-    font-size: 54rem;
-    border-top-style: solid;
-    width: 7.3rem;
-  }
-*/
+  
 
   .article-title {
     font-size: 1.8rem;
@@ -564,11 +527,7 @@ a{
     margin-bottom: 3rem;
   }
 
-  .images-on-right{
-
-    
-    
-  }
+  
   
   footer {
     background-color: #add8e6;
@@ -577,15 +536,15 @@ a{
     padding-top: 3rem;
     font-size: 4.4rem;
     width: 100%;
-    margin-top: auto;
+   
   }
 
   nav a {
     text-decoration: none;
     color: blue;
-    font-weight: 200;
+    
     font-size: 1.4rem;
-    /*hack*/
+   
     margin-left: 2rem;
   }
   
