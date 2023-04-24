@@ -113,7 +113,7 @@ header {
   
   background-color: #707070;
   width: 100%;
-  margin: 0rem;
+  
 }
 
 .site-title {
@@ -199,13 +199,7 @@ a {
   font-size: 3rem;
 }
 
-.keeping-cooking-simple-article-blue-link {
-  width: 100%;
-  margin: 0 auto;
-  margin-left: 0.5rem;
-  margin-right: 10rem;
-  margin-top: 4.4rem;
-}
+
 
 .three-articles {
   
@@ -227,7 +221,7 @@ a {
 .date {
   margin-top: 1rem;
   font-size: 1.5rem;
-  margin-left: 0rem;
+  
   color: blue;
 }
 
@@ -238,8 +232,7 @@ a {
   margin-bottom: 5rem;
 }
 
-.keeping-cooking-simple-article-first-text {
-}
+
 
 .blue-link {
   color: blue;
@@ -258,7 +251,6 @@ a {
 
 .last-center{
   text-align: center;
- 
   margin-top: 2rem;
   
 }
@@ -266,7 +258,7 @@ a {
 
 .image-and-date {
   text-align: center;
-  margin-left: 0rem;
+  
 }
 
 .images-on-right {
@@ -334,13 +326,6 @@ a {
   
 }
 
-.nav2 {
-}
-
-
-
-
-
 
 
 
@@ -407,8 +392,6 @@ a {
   }
 
 
-  nav ul {
-  }
 
   .site-title {
     font-size: 3rem;
@@ -476,7 +459,7 @@ width: 50%;
   }
 
   .nav2 {
-    margin: 0;
+    
     padding: 0;
     text-align: center;
     background-color: yellowgreen;
@@ -551,13 +534,9 @@ width: 50%;
     margin-bottom: 0rem;
     
     padding-top: 10rem;
-    /*position:absolute;
-    top:85px;
-    left: 340px;*/
+    
   }
-  .banner {
-  }
-
+  
   .top-heading {
     padding-top: 1rem;
   }
