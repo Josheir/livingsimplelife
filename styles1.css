@@ -146,8 +146,8 @@ header {
 
 
 .main-part-of-page-title-image-desk {
-  width: 68%;
-  height: 38rem;
+  width: 64%;
+  height: 28rem;
   background-image: url("./images/work.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
@@ -409,8 +409,8 @@ a {
   }
 
   .main-part-of-page-title-image-desk {
-    height: 160px;
-    width: 45%;
+    height: 190px;
+    width: 60%;
     margin-bottom: 1rem;
     
   }
