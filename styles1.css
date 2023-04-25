@@ -135,11 +135,13 @@ header {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-left: 1rem;
  
 }
 
 .main-part-of-page {
-  width: 100%;
+  width: 170%;
+  margin-left:10rem;
 }
 
 
@@ -271,6 +273,7 @@ a {
   text-align: center;
   padding: 3rem;
   margin: 0 auto;
+  margin-right:40rem;
   
   
 }
@@ -307,6 +310,7 @@ a {
   margin: 0 auto;
   margin-top: 5rem;
   margin-bottom: 0rem;
+  margin-right: 50rem;
 
   
  
