@@ -48,6 +48,14 @@ nav a {
   font-size: 1.4rem;
   margin-left: 2rem;
 }
+
+.rowLink{
+  padding-bottom: .5rem;
+  border-bottom-style: solid;
+  border-bottom-width: 1.1px;
+ 
+  
+}
 .center {
   text-align: center;
 }
@@ -55,6 +63,16 @@ nav a {
 .nav2 {
   display: none;
 }
+
+.homeLink{
+  border-top:solid;
+  color:black;
+  margin-top: 0rem;
+  width:2rem;
+  margin-left: 1.7rem;
+  
+}
+
 
 
 p {
@@ -394,6 +412,7 @@ a {
     margin: 1rem;
     border: 1px solid black;
     color:blue;
+    margin-bottom:1rem;
   }
 
 

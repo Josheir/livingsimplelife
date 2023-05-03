@@ -45,6 +45,14 @@ nav ul {
   
 }
 
+.rowLink{
+  padding-bottom: .5rem;
+  border-bottom-style: solid;
+  border-bottom-width: 1.1px;
+ 
+  
+}
+
 nav a {
   text-decoration: none;
   color:blue;
@@ -408,6 +416,7 @@ a{
    
     padding: 0;
     text-align: center;
+    background-color: blue;
     
   }
   
@@ -418,6 +427,7 @@ a{
 
   .nav2 a {
     display: inline-block;
+    background-color: rgb(255, 0, 0);
     padding: 2px;
     font-size: .9rem;
   }
@@ -427,16 +437,28 @@ a{
   }
   .nav2 {
     display: block;
+   
+    
   }
 
+  .homeLink{
+    border-top:solid;
+    color:black;
+    margin-top: 0rem;
+    width:2rem;
+    margin-left: -14.5rem;
+    
+  }
   
 
   ul a {
+    background-color: yellow;
     display: inline-block;
     padding: 1rem;
     margin: 1rem;
     border: 1px solid black;
-    color: blue
+    color: blue;
+    
     
   }
 
