@@ -1,5 +1,13 @@
-.homeLink{
-    
+
+
+@media screen and (max-width: 597px) {
+
+  .homeLink{
+    border-top:solid;
+    color:black;
+    margin-top: -.6rem;
+    width:2rem;
     margin-left: 11.3rem;
     
   }
+}
