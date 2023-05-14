@@ -14,6 +14,7 @@ html {
   font-family: sans-serif, Courier, monospace;
   height: 100%;
   overflow: scroll;
+  overflow-x: hidden;
   
  
 }
@@ -147,6 +148,7 @@ header {
   flex-direction: row;
   width: 100%;
   margin-left: 14.6rem;
+  
  
 }
 
@@ -351,12 +353,21 @@ a {
   }
 
   .images-on-right-bottom {
-
-    margin-right:0;
+    width: 60%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3rem;
+    margin: 0 auto;
+    margin-top: 5rem;
   }
 
   .image-on-right-top {
-    margin-right:0;
+    width: 60%;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 3rem;
+    margin: 0 auto;
+    margin-top: 5rem;
   }
 
   .main-part-of-page {
@@ -611,14 +622,20 @@ width: 50%;
   .text{
     font-size: 3rem;
   }
+
+  .main-part-of-page {
+    
+    margin-left:0rem;
+    width: 100%;
+  }
+  .entire-section{
+    margin-left: 0rem;
+  }
+
 }
 
 
-@media screen and (max-width: 378px) {
 
-
-
-}
 
 
 
