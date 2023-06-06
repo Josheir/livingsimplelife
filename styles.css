@@ -24,13 +24,13 @@ html {
   min-width: 240px;
   
   font-family: sans-serif, Courier, monospace;
-  height: 100%;
-  overflow: scroll;
+  
   
   /*hack*/
   
   
-  
+  margin: 0%;
+ padding: 0%;
   
   
  
@@ -71,7 +71,7 @@ nav a {
   color: blue;
   
   font-size: 1.4rem;
-  margin-left: 2rem;
+  
 }
 
 .rowLink{
@@ -455,6 +455,7 @@ a {
   .main-part-of-page {
     width: 100%;
     margin-left:0rem;
+    margin-right:0rem;
   }
 
   .entire-section {
@@ -597,6 +598,7 @@ width: 50%;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    
     
     
   }
