@@ -1,26 +1,50 @@
 
 
 * {
-  margin: 0px;
-
-  font-size: 6px;
+  
+  
 }
+
+
+
+.most-outer{
+
+  
+  
+  
+
+}
+
+
 html {
-  font-size: 6px;
-  margin: auto;
+  font-size: 16px;
+ 
   max-width: 1000px;
+  
   min-width: 240px;
   
   font-family: sans-serif, Courier, monospace;
   height: 100%;
   overflow: scroll;
-  overflow-x: hidden;
+  
+  /*hack*/
+  
+  
+  
+  
   
  
 }
 
+.color {
+  color:black;
+}
+
 body {
-  width: 100%;
+  /*hack*/
+  
+ margin: 0%;
+ padding: 0%;
  
   
 }
@@ -103,9 +127,14 @@ nav li {
 
 
 header {
-  width: 100%;
+  
   text-align: center;
-  background-color: #add8e6;
+ 
+  margin-left: 0rem;
+  width: 100%;
+  /*HACK*/
+  
+ 
 }
 
 .banner {
@@ -113,7 +142,7 @@ header {
   flex-direction: row;
 
   width: 100%;
-  padding-bottom:1rem;
+  
   padding-top: 0rem;
   margin-bottom: 5rem;
 }
@@ -122,6 +151,7 @@ header {
   display: flex;
   flex-direction: column;
   padding: 0px 3rem 0px 3rem;
+  
   
   
   width: 100%;
@@ -138,7 +168,17 @@ header {
   padding-bottom: 2.6rem;
   
   color: blue;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
+  
+  width:100%;
+  
+  padding-left: 0rem;
+  padding-right: 0rem;
+  
+  
+  
+ 
+  
 }
 
 
@@ -146,15 +186,22 @@ header {
 .entire-section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
-  margin-left: 14.6rem;
+  
+  
+  
+  
+  
+  
+  
   
  
 }
 
 .main-part-of-page {
-  width: 170%;
-  margin-left:10rem;
+  width: 100%;
+  margin-left:0rem;
 }
 
 
@@ -169,8 +216,9 @@ header {
   background-size: cover;
   border-style: solid;
   border-width: 1px;
+  
 
-  margin: 0 auto;
+  
   
 }
 
@@ -190,11 +238,15 @@ header {
 
 
 .top-heading {
-  font-size: 3rem;
+  font-size: 1.2rem;
   width: 100%;
   margin-bottom: 3rem;
   text-align: center;
   margin-top: 3rem;
+  
+  
+  
+  
 }
 
 .text {
@@ -286,7 +338,7 @@ a {
   text-align: center;
   padding: 3rem;
   margin: 0 auto;
-  margin-left:6rem;
+ 
   
   
 }
@@ -301,11 +353,11 @@ a {
 /*on upper right*/
 .large-image-lower {
   border: 1px solid black;
-  width: 80%;
+  width: 100%;
 }
 
 .aside-text {
-  margin: 0rem;
+  
   text-align: center;
   
   font-size: 1.8rem;
@@ -325,6 +377,7 @@ a {
   margin-bottom: 0rem;
   margin-right: 50rem;
   margin-left:6rem;
+  
 
   
  
@@ -334,11 +387,11 @@ a {
 
 
 .footer {
-  background-color: #add8e6;
+ 
   text-align: center;
   padding-bottom: 3rem;
   padding-top: 3rem;
-  font-size: 4.4rem;
+  font-size: 1.4rem;
   width: 100%;
   margin-top: 7rem;
   
@@ -347,13 +400,34 @@ a {
 
 
 
+
+
   @media screen and (max-width: 704px) {
   body {
+
+    
     
   }
 
+  html{
+    /*HACK*/
+    
+    
+  }
+
+
+  .title{
+    
+  }
+  .sub-title{
+    
+    
+    padding-top: 1rem;
+    
+    }
+
   .images-on-right-bottom {
-    width: 60%;
+    width: 40%;
     border: 1px solid black;
     text-align: center;
     padding: 3rem;
@@ -362,12 +436,20 @@ a {
   }
 
   .image-on-right-top {
-    width: 60%;
+    width: 40%;
     border: 1px solid #000000;
+
+   
+   
+    
+    
+    
     text-align: center;
-    padding: 3rem;
     margin: 0 auto;
     margin-top: 5rem;
+    
+    
+    
   }
 
   .main-part-of-page {
@@ -379,7 +461,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left:0;
+   
   }
 
   
@@ -402,6 +484,7 @@ a {
     font-size: 2.2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    
   }
 
   .navbar {
@@ -417,6 +500,9 @@ a {
     border: 1px solid black;
     color:blue;
     margin-bottom:1rem;
+    padding: 0rem;
+    
+    
   }
 
 
@@ -429,13 +515,14 @@ a {
   .text {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
    
     
   }
 
   a{
-      font-size: 1.6rem;
+      color:blue;
+      font-size: 1.2rem;
   }
 
 
@@ -450,15 +537,24 @@ a {
 
   .aside-text {
     
-    font-size: 1.8rem;
+    font-size: 1.0rem;
   padding-top: 1rem;
   padding-bottom: 4rem;
+ 
+  width: 100%;
+  
+  text-align: center;
+
   }
 
   .main-part-of-page-title-image-desk {
     height: 190px;
     width: 60%;
     margin-bottom: 1rem;
+    margin: auto;
+    
+   
+   
     
   }
 
@@ -477,12 +573,15 @@ width: 50%;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 2rem;
+  
   }
 
   .article-title {
     font-size: 1.8rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    width:90%;
+    margin: 0 auto;
 
 
 
@@ -497,18 +596,29 @@ width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     
     
   }
 
   .images-on-right {
     margin-bottom:2rem;
+    width:100%;
+    
+   
+    
   }
 
   .nav2 {
     
-    padding: 0;
-    text-align: center;
+    
+    margin: 0rem;
+    padding:0rem;
+   
+    width:100%;
+   
+    
+   
    
   }
 
@@ -531,32 +641,88 @@ width: 50%;
 
   
 
-  .homeLink{
-    border-top:solid;
-    color:black;
-    margin-top: -.6rem;
-    width:2rem;
-    margin-left: 1.7rem;
-    
+  
+
+
+}
+
+
+@media screen and (max-width: 494px) {
+
+.sub-title{
+  font-size: .9rem;
+}
+
+
+
+}
+
+@media screen and (max-width: 464px) {
+
+  .sub-title{
+    font-size: .7rem;
   }
 
 
 }
 
 
-@media screen and (max-width: 410px) {
 
+@media screen and (max-width: 410px) {
+  
+  
   .text{
   margin-left: 10%;
   margin-right: 10%;
+  
+  
 }
+
+
+.sub-title{
+  text-align: center;
+  
+  
+ 
+}
+
+
+
+.top-heading{
+  
+  font-size: 2rem;
+}
+
+.title{
+  font-size: 20rem;
+}
+
+
+
+
+
 }
 
 @media screen and (max-width: 405px) {
 
   .main-part-of-page-title-image-desk {
     height: 120px;
-    width:60%
+    width:60%;
+    margin: auto;    
+    
+  }
+
+  
+}
+
+  @media screen and (max-width: 435px) {
+  
+  .top-heading{
+  
+  margin-left: 0%;
+  width:90%;
+  
+
   }
 }
 
@@ -566,8 +732,6 @@ width: 50%;
     
   }
 }
-
-
 
 
 
@@ -629,7 +793,7 @@ width: 50%;
     width: 100%;
   }
   .entire-section{
-    margin-left: 0rem;
+    margin-left: 10%;
   }
 
 }
@@ -639,3 +803,127 @@ width: 50%;
 
 
 
+
+
+@media screen and (max-width: 390px) {
+
+.gap{
+  
+}
+}
+
+
+@media screen and (max-width: 379px) {
+
+  .top-heading{
+
+    margin:5rem;
+    text-align: center;
+    
+    
+  }
+
+}
+
+
+
+@media screen and (max-width: 264px) {
+
+  .top-heading{
+    margin-right: 10%;
+    margin-left: 10%;
+    width:100%;
+    
+    
+    margin: 0 auto;
+    
+  }
+
+}
+
+@media screen and (max-width: 377px) {
+
+  
+
+
+  
+
+  .nav2 a {
+    
+    padding: 2px;
+    font-size: 0.9rem;
+  }
+
+  
+
+  
+  .top-heading{
+    margin-right: 0rem;
+    margin-left: 0rem;
+    padding:0rem;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+    
+  }
+
+  .text{
+   
+  }
+  }
+  
+
+  @media screen and (max-width: 343px) {
+
+    .nav2 {
+      padding-left: 8rem;
+      padding-right: 8rem;
+      width: 70%;
+      
+    }
+  }
+
+  @media screen and (max-width: 401px) {
+
+html{
+
+  /*HACK*/
+  
+  
+  
+}
+.sub-title{
+ 
+  
+  
+  margin: auto;
+  
+  width:100%;
+
+  text-align: center;
+  
+  
+  
+  
+  
+  
+}
+
+
+
+.top-heading{
+  
+  font-size: 1.5rem;
+  
+  
+  text-align: center;
+  width:100%;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  
+}
+
+  }
