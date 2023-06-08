@@ -34,6 +34,10 @@ html {
   
   margin: 0%;
  padding: 0%;
+
+ margin: auto;
+
+ 
   
   
  
@@ -60,7 +64,7 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   
   justify-content: center;
 
@@ -72,9 +76,12 @@ nav a {
   text-decoration: none;
   color: blue;
   
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  margin-left:1.3rem;
   
 }
+
+
 
 .rowLink{
   padding-bottom: .1rem;
@@ -154,17 +161,20 @@ header {
   display: flex;
   flex-direction: column;
  
+  text-align: center;
   
   
-  
-  width: 90%;
+  width: 100%;
   
 }
 
 .site-title {
-  font-size: 3rem;
+  font-size: 2rem;
   padding-top: 2rem;
-  text-align: center;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding-left: 10rem;
+  
 }
 
 .sub-title {
@@ -173,10 +183,11 @@ header {
   
   color: blue;
   letter-spacing: 0.1rem;
+  margin-left:0rem;
   
   width:100%;
   
-  padding-left: 0rem;
+  padding-left: 10rem;
   padding-right: 0rem;
   
   
@@ -213,7 +224,7 @@ header {
 
 
 .main-part-of-page-title-image-desk {
-  width: 100%;
+  width: 80%;
   height: 28rem;
   background-image: url("./images/work.jpg");
   background-position: bottom;
@@ -221,6 +232,8 @@ header {
   background-size: cover;
   border-style: solid;
   border-width: 1px;
+  text-align: center;
+  margin: 10%;
   
 
   
@@ -241,9 +254,12 @@ header {
 
 
 
+.top {
 
+  text-align: center;
+}
 .top-heading {
-  font-size: 1.2rem;
+  font-size: 2.6rem;
   width: 100%;
   margin-bottom: 3rem;
  
@@ -305,6 +321,7 @@ a {
   margin-top: 5rem;
   text-align: center;
   margin-bottom: 5rem;
+  background-color: blueviolet;
 }
 
 
@@ -340,16 +357,7 @@ a {
   width: 100%;
 }
 
-.image-on-right-top {
-  width: 30%;
-  border: 1px solid #000000;
-  text-align: center;
-  padding: 3rem;
-  margin: 0 auto;
- 
-  
-  
-}
+
 
 .aside-heading {
   font-size: 1.8rem;
@@ -377,18 +385,21 @@ a {
 
 .images-on-right-bottom {
   width: 30%;
-  border: 1px solid black;
+  border: 1px solid #000000;
   text-align: center;
   padding: 3rem;
   margin: 0 auto;
-  margin-top: 5rem;
-  margin-bottom: 0rem;
-  margin-right: 50rem;
- 
-  
+}
 
-  
+.image-on-right-top {
+  width: 30%;
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 3rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
  
+  
   
 }
 
@@ -419,7 +430,8 @@ a {
 
   html{
     /*HACK*/
-    
+    margin: 0%;
+
     
   }
 
@@ -429,7 +441,7 @@ a {
   }
   .sub-title{
     
-    
+    /*Look at github! and put old global code here with sub title title site title*/
     padding-top: 1rem;
     
     }
@@ -823,6 +835,7 @@ width: 80%;
   
   .top-heading {
     padding-top: 1rem;
+    font-size: 2.2rem;
   }
 
   .sub-title {
