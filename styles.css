@@ -490,9 +490,17 @@ a {
   }
   
   .top-heading {
+
+    width:90%;
     font-size: 2.2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    text-align: center;
+    background-color: red;
+    
+   
+   
+   
     
     
   }
@@ -647,12 +655,47 @@ width: 50%;
     display: none;
   }
   .nav2 {
+
+    display: block;
     
   }
 
   
+.top{
+  width:100%;
+  background-color: aqua;
+  
+  text-align: center;
+ 
+  
+}
+  
+
+.top{
+
+    
+  width: 100%;
+  text-align: center;
+}
+
+.top-heading{
+  
+
+
+width: 80%;
+
+  background-color: red;
+  
+  color:white;
+
+  margin:10%;
 
   
+  
+  
+  
+  
+}
 
 
 }
@@ -899,8 +942,8 @@ width: 50%;
   .top{
 
     
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
   }
   
   .top-heading{
@@ -912,6 +955,8 @@ width: 50%;
     background-color: red;
     
     color:white;
+
+    text-align: center;
 
     
     
