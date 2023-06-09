@@ -437,14 +437,29 @@ a {
 
 
   .title{
+
+    width:90%;
+    background-color: rebeccapurple;
+    padding-left: 0rem;
     
   }
+
+  .site-title {
+    font-size: 3rem;
+    padding-left: 0rem;
+   
+  }
+
   .sub-title{
     
     /*Look at github! and put old global code here with sub title title site title*/
     padding-top: 1rem;
+    font-size: 1rem;
+    padding-left: 0rem;
     
     }
+
+
 
   .images-on-right-bottom {
     width: 40%;
@@ -557,13 +572,9 @@ a {
 
 
 
-  .site-title {
-    font-size: 3rem;
-  }
+  
 
-  .sub-title {
-    font-size: 1rem;
-  }
+  
 
   .aside-text {
     
