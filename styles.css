@@ -451,12 +451,22 @@ a {
     width:90%;
     background-color: rebeccapurple;
     padding-left: 0rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+    
     
   }
 
+  .banner{
+    background-color: yellow;
+  }
   .site-title {
     font-size: 3rem;
-    padding-left: 0rem;
+    padding: 0rem;
+    width: 90%;
+    background-color: red;
+    margin-left: 5%;
+    margin-right: 5%;
    
   }
 
@@ -466,6 +476,9 @@ a {
     padding-top: 1rem;
     font-size: 1rem;
     padding-left: 0rem;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     
     }
 
