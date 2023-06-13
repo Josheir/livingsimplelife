@@ -50,7 +50,7 @@ html {
 body {
   /*hack*/
   
- 
+ background-color: blue;
  
  
 }
@@ -185,19 +185,15 @@ header {
 
 .sub-title {
   font-size: 1rem;
-  padding-bottom: 2.6rem;
+  padding-bottom: 0rem;
   
   color: blue;
   letter-spacing: 0.1rem;
   margin-left:0rem;
   
-  width:100%;
-  
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-  
+  width:90%;
+  padding: 0%;
+  margin: 40.2rem;
   
   
   
@@ -434,7 +430,7 @@ a {
   @media screen and (max-width: 704px) {
   body {
 
-    
+    margin-top:0rem;
     
   }
 
@@ -448,17 +444,20 @@ a {
 
   .title{
 
-    width:90%;
+    width:100%;
     background-color: rebeccapurple;
     padding-left: 0rem;
-    margin-left: 5%;
-    margin-right: 5%; 
+    margin: 0%;
+    padding: 0%; 
+
     
     
   }
 
   .banner{
     background-color: yellow;
+    
+    
   }
   .site-title {
     font-size: 3rem;
@@ -473,12 +472,12 @@ a {
   .sub-title{
     
     /*Look at github! and put old global code here with sub title title site title*/
-    padding-top: 1rem;
-    font-size: 1rem;
-    padding-left: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    font-size: .7rem;
     width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 5%;
+    margin-bottom:0rem;
     
     }
 
@@ -589,8 +588,9 @@ a {
   }
 
   a{
-      color:blue;
+      color:black;
       font-size: 1.2rem;
+      
   }
 
 
@@ -746,7 +746,7 @@ width: 80%;
 
 }
 
-
+/*
 @media screen and (max-width: 494px) {
 
 .sub-title{
@@ -766,7 +766,7 @@ width: 80%;
 
 }
 
-
+*/
 
 @media screen and (max-width: 410px) {
   
@@ -1021,9 +1021,8 @@ width: 80%;
   @media screen and (max-width: 343px) {
 
     .nav2 {
-      padding-left: 8rem;
-      padding-right: 8rem;
-      width: 70%;
+      
+      width: 100%;
       
     }
 
@@ -1055,11 +1054,7 @@ html{
  
   
   
-  margin: auto;
   
-  width:100%;
-
-  text-align: center;
   
   
   

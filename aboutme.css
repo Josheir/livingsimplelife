@@ -2,24 +2,24 @@
 
 * {
   margin: 0px;
-  font-size: 6px;
+ 
   
 }
 
 html {
   font-size: 16px;
-  margin: auto;
+ 
   max-width: 1000px;
   min-width: 240px;
 
-  font-family: sans-serif, Courier, monospace;
-  overflow: scroll;
-  overflow-x: hidden;
-  height: 100%;
+  font-family: monospace;
+  overflow-x: auto;
+  
+  
 }
 
 body {
-  width: 100%;
+ 
   
   
 }
@@ -106,6 +106,9 @@ header {
   width: 100%;
   text-align: center;
   background-color: #add8e6;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  background-color: gray;
 }
 
 .banner {
@@ -126,19 +129,23 @@ header {
   margin-bottom: 3rem;
   margin: 0rem;
   width: 100%;
+  
 }
 
 .site-title {
   font-size: 3rem;
-  padding-top: 2rem;
+  
 }
 
 .sub-title {
   font-size: 1rem;
-  padding-bottom: 2.6rem;
+  padding-bottom: 1rem;
  
   color: blue;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.1rem;
+  margin: 5%;
+  margin-bottom:0rem;
+  
 }
 
 
@@ -166,7 +173,7 @@ header {
   background-size: cover;
   border-style: solid;
   border-width: 1px;
-  margin: 0 auto;
+  margin: auto;
   margin-top: 2rem;
   
 }
@@ -249,10 +256,10 @@ a{
 
 
 .image-on-right-top {
-  width: 60%;
+  width: 65%;
   border: 1px solid #000000;
   text-align: center;
-  padding: 3rem;
+  
   margin: 0 auto;
   margin-top: 5rem;
 }
@@ -288,7 +295,7 @@ a{
 
 
 .images-on-right-bottom {
-  width: 60%;
+  width: 40%;
   border: 1px solid black;
   text-align: center;
   padding: 3rem;
@@ -301,7 +308,7 @@ a{
   text-align: center;
   padding-bottom: 3rem;
   padding-top: 3rem;
-  font-size: 4.4rem;
+  font-size: 1.4rem;
   width: 100%;
   margin-top: 7rem;
 }
@@ -311,10 +318,11 @@ a{
 .top-heading {
   color: rgb(76, 0, 255);
   font-size: 3rem;
-  width: 100%;
+  width: 90%;
   margin-bottom: 3rem;
   text-align: center;
   margin-top: 3rem;
+  
 }
 
 
@@ -341,14 +349,26 @@ a{
 
   }
   .site-title {
-    font-size: 3rem;
+    font-size: 1.8rem;
+    
+    background-color: red;
+    
+    width: 100%;
+    
   }
   .sub-title {
     font-size: 1rem;
   }
   
   .title {
-    text-align: center;
+    
+    
+    background-color: rebeccapurple;
+   width: 100%;
+   margin: 0%;
+   padding: 0%;
+   padding-top:0rem
+    
   }
 
   
@@ -357,7 +377,13 @@ a{
     flex-direction: column;
 
     align-items: center;
-    padding-bottom: 1rem;
+    
+    padding-bottom: 0rem;
+    background-color: rgb(21, 128, 0);
+    width: 100%;
+    justify-content: center;
+    margin-top: 0rem;
+    
    
     
     
@@ -367,9 +393,12 @@ a{
 
 
   .top-heading {
-    font-size: 2.3rem;
-    margin-top:3rem;
-    margin-bottom:3rem;
+    width: 80%;
+    font-size: 2.2rem;
+    margin-top:5%;
+    margin-bottom:5%;
+    text-align: center;
+    margin: 10%;
    
   }
 
@@ -379,12 +408,16 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: aqua;
+    
   }
   
   .main-part-of-page-title-image-face {
     text-align: center;
     width: 45%;
     height: 120px;
+    background-color: red;
+    
     
   }
 
@@ -398,7 +431,7 @@ a{
   }
   nav a {
     color: #020202;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
   }
 
   
@@ -407,6 +440,8 @@ a{
     font-size: 1.8rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    width:90%;
+    margin: 0 auto;
     
 
 
@@ -416,8 +451,9 @@ a{
   .nav2 {
    
     padding: 0;
-    text-align: center;
-    
+    /*text-align: center;
+    */
+    width:100%;
     
   }
   
@@ -442,23 +478,16 @@ a{
     
   }
 
-  .homeLink{
-    border-top:solid;
-    color:black;
-    margin-top: -.6rem;
-    width:2rem;
-    margin-left: -14.5rem;
-    
-  }
+  
   
 
   ul a {
     
     display: inline-block;
-    padding: 1rem;
-    margin: 1rem;
-    border: 1px solid black;
-    color: blue;
+    padding: 0rem;
+    
+    
+    color:black;
     
     
   }
@@ -508,11 +537,11 @@ a{
   }
 
   .site-title {
-    font-size: 3rem;
+    font-size: 1.8rem;
   }
 
   .sub-title {
-    font-size: 1rem;
+    font-size: .7rem;
   }
 
   .aside-text {
