@@ -13,8 +13,7 @@ html {
   min-width: 240px;
 
   font-family: monospace;
-  overflow-x: auto;
-  
+  margin: auto;
   
 }
 
@@ -38,8 +37,8 @@ nav ul {
   list-style: none;
   display: flex;
 
-  flex-direction: row;
-  text-align: center;
+  flex-direction: column;
+  
 
   
   justify-content: center;
@@ -124,16 +123,18 @@ header {
 .title {
   display: flex;
   flex-direction: column;
-  padding: 0px 3rem 0px 3rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin: 0rem;
+  
   width: 100%;
   
 }
 
 .site-title {
-  font-size: 3rem;
+  font-size: 2rem;
+  padding-top: 2rem;
+  
+  width:100%;
+  background-color: red;
+  margin-left: 3rem;
   
 }
 
@@ -142,10 +143,10 @@ header {
   padding-bottom: 1rem;
  
   color: blue;
-  letter-spacing: 0.1rem;
-  margin: 5%;
-  margin-bottom:0rem;
   
+  margin-left:3rem;
+  margin-bottom:0rem;
+  width: 100%;
 }
 
 

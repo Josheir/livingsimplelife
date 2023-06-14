@@ -4,6 +4,7 @@
   
   margin-left:0px;
   margin-right: 0px;
+  margin-top: 0px;
   
   
 }
@@ -36,6 +37,7 @@ html {
  padding: 0%;
 
  margin: auto;
+
 
  
   
@@ -181,6 +183,7 @@ header {
   width:100%;
   background-color: red;
   margin-left: 3rem;
+  margin-top: 0rem;
 }
 
 .sub-title {
