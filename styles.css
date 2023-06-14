@@ -423,8 +423,248 @@ a {
 }
 
 
+@media screen and (max-width: 264px) {
+
+  .top-heading{
+    margin-right: 10%;
+    margin-left: 10%;
+    width:100%;
+    
+    
+    margin: 0 auto;
+    
+  }
+
+}
+
+@media screen and (max-width: 343px) {
+
+  .nav2 {
+    
+    width: 100%;
+    
+  }
+
+  .main-part-of-page-title-image-desk {
+    height: 190px;
+    width: 60%;
+    margin-bottom: 1rem;
+    
+    text-align: center;
+    
+   
+   
+    
+  }
+
+  
+}
+
+  
+  @media screen and (max-width: 379px) {
+  
+    .top-heading{
+  
+      
+      text-align: center;
+      
+      
+      
+    }
+  
+   
+      
+      
+  
+  }
 
 
+  @media screen and (max-width: 390px) {
+
+    .gap{
+      
+    }
+    }
+
+
+    
+
+
+
+@media screen and (max-width: 400px) {
+
+
+  .site-title{
+   
+   
+  }
+  .sub-title{
+  
+    text-align: center;
+  }
+  
+    .main-part-of-page-title-image-desk {
+  
+      height: 190px;
+      width: 40%;
+      margin-bottom: 1rem;
+      }
+  
+      body{
+  
+        
+        
+      }
+    
+  
+    .nav2 a {
+      
+      padding: 2px;
+      font-size: 0.9rem;
+    }
+  
+    
+  
+    .top{
+  
+      
+      width: 100%;
+      text-align: center;
+    }
+    
+    .top-heading{
+      
+    
+    
+    width: 90%;
+  
+      background-color: red;
+      
+      color:white;
+  
+      text-align: center;
+  
+      
+      
+      
+      
+      
+    }
+  
+    .text{
+     
+    }
+    }
+  
+    
+
+    @media screen and (max-width: 401px) {
+
+      html{
+      
+        /*HACK*/
+        
+        
+        
+      }
+      .sub-title{
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      }
+      
+      
+      
+      .top-heading{
+        
+        font-size: 1.5rem;
+        
+        
+        text-align: center;
+        width:100%;
+      }
+      
+      .site-title {
+        font-size: 1.8rem;
+        
+      }
+        }
+
+    
+@media screen and (max-width: 405px) {
+
+  .main-part-of-page-title-image-desk {
+    height: 120px;
+    width:60%;
+    margin: auto;    
+    
+  }
+
+  
+}
+
+@media screen and (max-width: 410px) {
+  
+  
+  .text{
+  margin-left: 10%;
+  margin-right: 10%;
+  
+  
+}
+
+
+.sub-title{
+  text-align: center;
+  
+  
+ 
+}
+
+
+
+.top-heading{
+  
+  font-size: 2rem;
+  
+}
+
+.title{
+  font-size: 20rem;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width: 435px) {
+  
+  .top-heading{
+  
+  margin-left: 0%;
+  margin-right:0%;
+  width:100%;
+  
+  
+
+  }
+}
+
+@media screen and (max-width: 494px) {
+
+  .main-part-of-page-title-image-desk {
+    
+  }
+}
 
 
   @media screen and (max-width: 704px) {
@@ -772,73 +1012,13 @@ width: 80%;
 
 */
 
-@media screen and (max-width: 410px) {
-  
-  
-  .text{
-  margin-left: 10%;
-  margin-right: 10%;
-  
-  
-}
 
 
-.sub-title{
-  text-align: center;
-  
-  
+
+
  
-}
 
 
-
-.top-heading{
-  
-  font-size: 2rem;
-  
-}
-
-.title{
-  font-size: 20rem;
-}
-
-
-
-
-
-}
-
-@media screen and (max-width: 405px) {
-
-  .main-part-of-page-title-image-desk {
-    height: 120px;
-    width:60%;
-    margin: auto;    
-    
-  }
-
-  
-}
-
-  @media screen and (max-width: 435px) {
-  
-  .top-heading{
-  
-  margin-left: 0%;
-  margin-right:0%;
-  width:100%;
-  
-  
-
-  }
-}
-
-@media screen and (max-width: 494px) {
-
-  .main-part-of-page-title-image-desk {
-    
-  }
-}
 
 
 
@@ -915,173 +1095,12 @@ width: 80%;
 
 
 
-@media screen and (max-width: 390px) {
-
-.gap{
-  
-}
-}
-
-
-@media screen and (max-width: 379px) {
-
-  .top-heading{
-
-    
-    text-align: center;
-    
-    
-    
-  }
-
- 
-    
-    
-
-}
 
 
 
-@media screen and (max-width: 264px) {
-
-  .top-heading{
-    margin-right: 10%;
-    margin-left: 10%;
-    width:100%;
-    
-    
-    margin: 0 auto;
-    
-  }
-
-}
-
-@media screen and (max-width: 400px) {
-
-
-.site-title{
- 
- 
-}
-.sub-title{
-
-  text-align: center;
-}
-
-  .main-part-of-page-title-image-desk {
-
-    height: 190px;
-    width: 40%;
-    margin-bottom: 1rem;
-    }
-
-    body{
-
-      
-      
-    }
-  
-
-  .nav2 a {
-    
-    padding: 2px;
-    font-size: 0.9rem;
-  }
 
   
 
-  .top{
-
-    
-    width: 100%;
-    text-align: center;
-  }
   
-  .top-heading{
-    
-  
-  
-  width: 90%;
-
-    background-color: red;
-    
-    color:white;
-
-    text-align: center;
-
-    
-    
-    
-    
-    
-  }
-
-  .text{
-   
-  }
-  }
-  
-
-  @media screen and (max-width: 343px) {
-
-    .nav2 {
-      
-      width: 100%;
-      
-    }
-
-    .main-part-of-page-title-image-desk {
-      height: 190px;
-      width: 60%;
-      margin-bottom: 1rem;
-      
-      text-align: center;
-      
-     
-     
-      
-    }
-
-    
-  }
-
-  @media screen and (max-width: 401px) {
-
-html{
-
-  /*HACK*/
-  
-  
-  
-}
-.sub-title{
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-}
-
-
-
-.top-heading{
-  
-  font-size: 1.5rem;
-  
-  
-  text-align: center;
-  width:100%;
-}
-
-.site-title {
-  font-size: 1.8rem;
-  
-}
-  }
 
   
