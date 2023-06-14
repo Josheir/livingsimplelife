@@ -221,7 +221,7 @@ a{
 
 .large-image {
   border: 1px solid;
-  width: 100%;
+  width: 70%;
   
 }
 
@@ -262,7 +262,8 @@ a{
   text-align: center;
   padding: 3rem;
   margin: 0 auto;
-  margin-top: 5rem;
+  background-color: red;
+  
 }
 
 .aside-heading {
@@ -318,8 +319,8 @@ a{
 
 .top-heading {
   color: rgb(76, 0, 255);
-  font-size: 3rem;
-  width: 90%;
+  font-size: 2.6rem;
+  width: 100%;
   margin-bottom: 3rem;
   text-align: center;
   margin-top: 3rem;
