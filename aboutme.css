@@ -78,7 +78,7 @@ h5 {
 
 
 a{
-  font-size: 20rem;
+  font-size: 2rem;
 }
 
 a:link {
@@ -145,12 +145,12 @@ header {
   color: blue;
   
   margin-left:3rem;
-  width: 90%;
+  width: 100%;
 
-  margin: 5%;
+  
   margin-bottom:0rem;
   
-
+}
 
 
 
@@ -475,8 +475,9 @@ a{
   }
   .sub-title {
     font-size: 1rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
   }
   
   .title {
@@ -513,7 +514,7 @@ a{
 
   .top-heading {
     width: 80%;
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     margin-top:5%;
     margin-bottom:5%;
     text-align: center;
@@ -676,5 +677,4 @@ a{
     margin-right: 5rem ;
     font-size: 3rem;
   }
-}
 }
