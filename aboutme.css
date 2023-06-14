@@ -248,7 +248,7 @@ a{
 /*below now*/
 .images-on-right {
   width: 100%;
-  margin: 0 auto;
+  
 }
 
 
@@ -256,7 +256,7 @@ a{
 
 
 .image-on-right-top {
-  width: 65%;
+  width: 85%;
   border: 1px solid #000000;
   text-align: center;
   
@@ -284,7 +284,7 @@ a{
 .aside-text {
   
   text-align: center;
-  font-weight: bold;
+  
   font-size: 1.8rem;
   padding-top: 1rem;
   padding-bottom: 4rem;
@@ -295,7 +295,7 @@ a{
 
 
 .images-on-right-bottom {
-  width: 40%;
+  width: 45%;
   border: 1px solid black;
   text-align: center;
   padding: 3rem;
@@ -304,7 +304,7 @@ a{
 }
 
 .footer {
-  background-color: #add8e6;
+  
   text-align: center;
   padding-bottom: 3rem;
   padding-top: 3rem;
@@ -342,7 +342,12 @@ a{
   }
 
   .aside-text {
-    font-size: 1.8rem;
+
+    
+    display: flex;
+    direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 4rem;
 
@@ -424,7 +429,7 @@ a{
   .text {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
   nav ul {
     font-size: medium;
@@ -437,7 +442,10 @@ a{
   
 
   .article-title {
-    font-size: 1.8rem;
+    display: flex;
+    direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     width:90%;
@@ -516,11 +524,7 @@ a{
     margin-top: 2rem;
     
   }
-  .text {
-    font-size: 1.6rem;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+  
   a{
     font-size: 1.6rem;
   }
@@ -529,7 +533,7 @@ a{
   
 
   .top-heading {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
   }
 
   nav a {
@@ -544,12 +548,14 @@ a{
     font-size: .7rem;
   }
 
+
+  /*
   .aside-text {
     font-size: 1.8rem;
     padding-top: 1rem;
   padding-bottom: 4rem;
   }
-
+*/
 
   
   .main-part-of-page-title-image-face {
