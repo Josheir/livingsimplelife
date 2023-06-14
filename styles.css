@@ -50,7 +50,7 @@ html {
 body {
   /*hack*/
   
- background-color: blue;
+ 
  
  
 }
@@ -168,6 +168,7 @@ header {
  
   
   width: 100%;
+  
  
   
 }
@@ -176,11 +177,10 @@ header {
   
   font-size: 2rem;
   padding-top: 2rem;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  
   width:100%;
+  background-color: red;
+  margin-left: 3rem;
 }
 
 .sub-title {
@@ -188,12 +188,14 @@ header {
   padding-bottom: 0rem;
   
   color: blue;
-  letter-spacing: 0.1rem;
-  margin-left:0rem;
   
-  width:90%;
+  margin-left:3rem;
+  
+  width:100%;
   padding: 0%;
-  margin: 40.2rem;
+  
+  background-color: yellow;
+  
   
   
   
@@ -637,7 +639,7 @@ a {
 }
 
 .title{
-  font-size: 20rem;
+  font-size: 2rem;
 }
 
 
