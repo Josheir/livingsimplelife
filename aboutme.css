@@ -104,10 +104,10 @@ nav {
 header {
   width: 100%;
   text-align: center;
-  background-color: #add8e6;
+ 
   margin-left: 0rem;
   margin-right: 0rem;
-  background-color: gray;
+  
 }
 
 .banner {
@@ -145,9 +145,11 @@ header {
   color: blue;
   
   margin-left:3rem;
+  width: 90%;
+
+  margin: 5%;
   margin-bottom:0rem;
-  width: 100%;
-}
+  
 
 
 
@@ -166,8 +168,8 @@ header {
 
 
 .main-part-of-page-title-image-face {
-  width: 32%;
-  height: 25rem;
+  width: 50%;
+  height: 12rem;
   background-image: url("./images/about-me.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -257,16 +259,18 @@ a{
 
 
 .image-on-right-top {
-  width: 30%;
+  width: 45%;
   border: 1px solid #000000;
   text-align: center;
   padding: 3rem;
   margin: 0 auto;
-  background-color: red;
-  
+  margin-top: 5rem;
 }
 
 .aside-heading {
+  display: flex;
+  justify-content: center;
+ 
   font-size: 1.8rem;
   text-align: center;
   margin-top: 3rem;
@@ -297,7 +301,7 @@ a{
 
 
 .images-on-right-bottom {
-  width: 30%;
+  width: 45%;
   border: 1px solid black;
   text-align: center;
   padding: 3rem;
@@ -334,6 +338,8 @@ a{
 
 
 
+
+/*
 @media screen and (max-width: 466px) {
  
 
@@ -376,7 +382,7 @@ a{
   }
 */
 
-  
+  /*
   .main-part-of-page-title-image-face {
     height: 140px;
     width: 55%;
@@ -408,6 +414,28 @@ a{
     margin-left: 2rem;
   }
   
+}*/
+
+
+/*enlaege images*/
+@media screen and (max-width: 418px) {
+
+.large-image-lower{
+ 
+  width: 100%;
+  
+}
+
+}
+
+
+/* remove nav */
+@media screen and (max-width: 443px) {
+
+  nav a {
+    display:none;
+  }
+
 }
 
 
@@ -440,10 +468,15 @@ a{
     background-color: red;
     
     width: 100%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    
     
   }
   .sub-title {
     font-size: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
   
   .title {
@@ -465,7 +498,7 @@ a{
     align-items: center;
     
     padding-bottom: 0rem;
-    background-color: rgb(21, 128, 0);
+    
     width: 100%;
     justify-content: center;
     margin-top: 0rem;
@@ -526,11 +559,12 @@ a{
     display: flex;
     direction: column;
     justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    width:90%;
-    margin: 0 auto;
+   
+   
     
 
 
