@@ -220,7 +220,7 @@ a{
 
 .large-image {
   border: 1px solid;
-  width: 70%;
+  width: 100%;
   
 }
 
@@ -256,10 +256,10 @@ a{
 
 
 .image-on-right-top {
-  width: 85%;
+  width: 30%;
   border: 1px solid #000000;
   text-align: center;
-  
+  padding: 3rem;
   margin: 0 auto;
   margin-top: 5rem;
 }
@@ -274,7 +274,7 @@ a{
 /*below*/
 .large-image-lower {
   border: 1px solid black;
-  width: 80%;
+  width: 100%;
 }
 
 
@@ -295,7 +295,7 @@ a{
 
 
 .images-on-right-bottom {
-  width: 45%;
+  width: 30%;
   border: 1px solid black;
   text-align: center;
   padding: 3rem;
