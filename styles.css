@@ -271,6 +271,7 @@ header {
 }
 .top-heading {
   font-size: 2.6rem;
+  color:blue;
   width: 100%;
   margin-bottom: 3rem;
  
@@ -395,7 +396,7 @@ a {
 }
 
 .images-on-right-bottom {
-  width: 30%;
+  width: 45%;
   border: 1px solid #000000;
   text-align: center;
   padding: 3rem;
@@ -403,7 +404,7 @@ a {
 }
 
 .image-on-right-top {
-  width: 30%;
+  width: 45%;
   border: 1px solid #000000;
   text-align: center;
   padding: 3rem;
@@ -864,7 +865,7 @@ a {
   }
 
   .main-part-of-page-title-image-desk {
-    height: 190px;
+    height: 10rem;
     width: 60%;
     margin-bottom: 1rem;
     margin: auto;

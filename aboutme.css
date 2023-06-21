@@ -56,10 +56,10 @@ nav ul {
 nav a {
   text-decoration: none;
   color:blue;
-  font-weight: 200;
-  font-size: 1.4rem;
+ 
+  font-size: 1.2rem;
   /*hack*/
-  margin-left: 2rem;
+  margin-left: 1.3rem;
 }
 /*//////////////*/
 
@@ -169,7 +169,7 @@ header {
 
 .main-part-of-page-title-image-face {
   width: 50%;
-  height: 12rem;
+  height: 20rem;
   background-image: url("./images/about-me.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -189,6 +189,7 @@ header {
   font-size: 2rem;
   margin-left: 10%;
   margin-right: 10%;
+    
 }
 
 a{
@@ -534,8 +535,8 @@ a{
   
   .main-part-of-page-title-image-face {
     text-align: center;
-    width: 45%;
-    height: 120px;
+    width: 60%;
+    height: 10rem;
     background-color: red;
     
     
@@ -561,7 +562,7 @@ a{
     direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
    
