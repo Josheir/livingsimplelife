@@ -4,7 +4,7 @@
   margin: 0px;
   
   
-  font-size: 6px;
+  
   
   
   
@@ -13,7 +13,7 @@
 
 
 html {
-  font-size: 6px;
+  font-size: 16px;
   margin: auto;
   max-width: 1000px;
   min-width: 240px;
@@ -25,7 +25,7 @@ html {
   
   
   
-  font-family: sans-serif, Courier, monospace;
+  font-family: monospace;
 
 }
 
@@ -51,11 +51,11 @@ nav ul {
   
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   
   justify-content:center;
   
-  text-align: center;
+ 
  
   
  
@@ -73,8 +73,8 @@ nav ul {
 nav a {
   text-decoration: none;
   color:blue;
-  font-weight: 200;
-  font-size: 1.4rem;
+  
+  font-size: 1.2rem;
   margin-left: 2rem;
   
   
@@ -116,9 +116,11 @@ a:active {
 
 
 header {
-  width: 100%;
   text-align: center;
-  background-color: #add8e6;
+ 
+  margin-left: 0rem;
+  margin-right: 0rem;
+  width: 100%;
 }
 
 .banner {
@@ -143,7 +145,7 @@ header {
 .title {
   display: flex;
   flex-direction: column;
-  padding: 0px 3rem 0px 3rem;
+  padding: 0rem;
   
   
   width:100%;
@@ -152,8 +154,13 @@ header {
 }
 
 .site-title {
-  font-size: 3rem;
+  font-size: 2rem;
   padding-top: 2rem;
+  
+  width:100%;
+  background-color: red;
+  margin-left: 3rem;
+  margin-top: 0rem;
   
 }
 
@@ -162,11 +169,19 @@ header {
   padding-bottom: 2.6rem;
   
   color: blue;
-  letter-spacing: .3rem;
+  margin-left:3rem;
+  
+  width:100%;
+  padding: 0%;
+  
+  background-color: yellow;
+  
   
 }
 
-
+.color{
+  color: red;
+}
  
   .main-part-of-page {
   width: 100%;
@@ -185,14 +200,12 @@ header {
 
 
 .top-heading {
-
- 
-  font-size: 3rem;
+  font-size: 2.6rem;
+  color:blue;
   width: 100%;
-  
-  text-align: center;
-  margin-top: 3rem; 
-  
+  margin-bottom: 3rem;
+ 
+  margin-top: 3rem;
 
   
 
@@ -248,13 +261,14 @@ a.link{
     
   
     
-    background-color: #add8e6;
-    text-align: center;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-    font-size: 4.4rem;
-    width:100%;
-    margin-top: 7rem;
+    
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  font-size: 1.4rem;
+  width: 100%;
+  margin-top: 7rem;
+  
     
     
   }
@@ -293,9 +307,10 @@ a.link{
 
   ul a {
     display: inline-block;
-    padding: 1rem;
-    margin: 1rem;
-    border: 1px solid black;
+    padding: 0rem;
+    margin: 0rem;
+    
+    
   }
 
   
@@ -306,17 +321,30 @@ a.link{
   .text {
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-top: .5rem;
   }
 
 
   .site-title {
-    font-size: 3rem;
+    font-size: 1.8rem;
+    padding: 0rem;
+    width: 100%;
+    background-color: red;
+    margin-left: 0;
+    margin-right: 0%;
+    padding-top: 2rem;
+   
   }
 
   .sub-title {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
     font-size: 1rem;
+    width: 90%;
+    margin: 5%;
+    margin-bottom:0rem;
+    margin-top: 0rem;
   }
 
   
@@ -330,7 +358,7 @@ a.link{
 
  
   footer {
-    background-color: #add8e6;
+    
     text-align: center;
     padding-bottom: 3rem;
     padding-top: 3rem;
@@ -353,9 +381,11 @@ a.link{
   
   .nav2 {
    
-    padding: 0;
-    text-align: center;
-    
+    margin: 0rem;
+    padding:0rem;
+   
+    width:100%;
+   
     
   }
 
@@ -377,12 +407,21 @@ a.link{
   }
 
 .top-heading{
-  font-size: 2.2rem;
+  width:80%;
+    font-size: 1.7rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    background-color: red;
+    color:white;
  
   margin-bottom: 3rem;
+  margin:10%;
 }
 a {
-  font-size: 1.6rem;
+  color:black;
+  font-size: 1.2rem;
+  
 }
 
 }
@@ -457,12 +496,13 @@ top:20px;
   .footer {
     
    
-    background-color: #add8e6;
+    
     text-align: center;
     padding-bottom: 3rem;
     padding-top: 3rem;
-    font-size: 4.4rem;
+    font-size: 1.4rem;
     width:100%;
+    margin-top: 7rem;
     
     
     
