@@ -437,58 +437,51 @@ a {
 @media print {
 
   
-  .text {
-    font-size: 3rem;
-  }
-
-  .images-on-right{
-    display: none;
-  }
-
-  .main-part-of-page-title-image{
-    display: none;
-  }
-
-  .large-image{
+  .text{
+    margin-left: 10%;
+    margin-right: 10%;
     
+  }
+  
+  }
+
+
+
+
+
+
+
+@media print {
+  .images-on-right {
     display: none;
   }
 
-  .date{
-    display: none;
-    margin-bottom: 0rem;
-  }
-  .blue-link{
+  .main-part-of-page-title-image-face {
     display: none;
   }
-  .main-part-of-page-first-date {
-  margin-bottom:0rem;
-  
+
+  .large-image {
+    display: none;
   }
+
+  .top-heading {
+    margin-bottom: 3rem;
+    
+    margin-top: 0rem;
+  }
+
   
 
-  .top-heading{
   
-  padding-top: 16rem;
- 
+  .text{
+    margin-left: 5rem;
+    margin-right: 5rem ;
+    font-size: 2rem;
+  }
 
-}
-
-.sub-title{
-  font-size: 2rem;
-  font-weight: 500;
-  position: absolute;
-left:-23px;
-top:64px;
-}
-.site-title{
-  position: absolute;
-left:30px;
-top:20px;
-  
-  font-size: 3.6rem;
-}
-
+  .site-title{
+    margin-bottom:1rem;
+  }
 }
 
 
