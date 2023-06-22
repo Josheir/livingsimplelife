@@ -133,7 +133,7 @@ header {
   padding-top: 2rem;
   
   width:100%;
-  background-color: red;
+  
   margin-left: 3rem;
   
 }
@@ -149,6 +149,7 @@ header {
 
   
   margin-bottom:0rem;
+  letter-spacing: .2rem;
   
 }
 
@@ -466,7 +467,7 @@ a{
   .site-title {
     font-size: 1.8rem;
     
-    background-color: red;
+    
     
     width: 100%;
     margin-left: 0rem;
@@ -484,7 +485,7 @@ a{
   .title {
     
     
-    background-color: rebeccapurple;
+    
    width: 100%;
    margin: 0%;
    padding: 0%;
@@ -529,7 +530,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: aqua;
+    
     
   }
   
@@ -537,7 +538,7 @@ a{
     text-align: center;
     width: 60%;
     height: 10rem;
-    background-color: red;
+   
     
     
   }
@@ -654,29 +655,20 @@ a{
 
   .top-heading {
     margin-bottom: 6rem;
-    padding-top: 8rem;
-    margin-top: 8rem;
+    
+    margin-top: 0rem;
   }
 
   
 
-  .sub-title {
-    font-size: 2rem;
-    font-weight: 500;
-    position: absolute;
-    left: -13px;
-    top: 64px;
-  }
-  .site-title {
-    position: absolute;
-    left: 46px;
-    top: 20px;
-
-    font-size: 3.6rem;
-  }
+  
   .text{
     margin-left: 5rem;
     margin-right: 5rem ;
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+
+  .site-title{
+    margin-bottom:1rem;
   }
 }

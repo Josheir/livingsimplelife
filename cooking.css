@@ -158,7 +158,7 @@ header {
   padding-top: 2rem;
   
   width:100%;
-  background-color: red;
+  
   margin-left: 3rem;
   margin-top: 0rem;
   
@@ -173,8 +173,10 @@ header {
   
   width:100%;
   padding: 0%;
+  letter-spacing: .2rem;
   
-  background-color: yellow;
+  
+  
   
   
 }
@@ -330,7 +332,8 @@ a.link{
     font-size: 1.8rem;
     padding: 0rem;
     width: 100%;
-    background-color: red;
+    
+    
     margin-left: 0;
     margin-right: 0%;
     padding-top: 2rem;
@@ -412,7 +415,8 @@ a.link{
     margin-top: 3rem;
     margin-bottom: 3rem;
     text-align: center;
-    background-color: red;
+    
+    
     color:white;
  
   margin-bottom: 3rem;
